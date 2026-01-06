@@ -592,6 +592,7 @@ namespace Content.Client.Lobby.UI
             UpdateSpeciesGuidebookIcon();
 
             ReloadPreview();
+            InitializeSpeciesSelection(); // WWDP EDIT;
             IsDirty = false;
         }
 

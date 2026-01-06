@@ -1,0 +1,7 @@
+- type: speciesDictionaryGroup
+  id: Humans
+  weight: 0
+
+- type: speciesDictionaryGroup
+  id: Other
+  weight: 5

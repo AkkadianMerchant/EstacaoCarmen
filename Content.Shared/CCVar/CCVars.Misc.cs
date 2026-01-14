@@ -93,7 +93,7 @@ public sealed partial class CCVars
     ///     The number of seconds that must pass for a single entity to be able to point at something again.
     /// </summary>
     public static readonly CVarDef<float> PointingCooldownSeconds =
-        CVarDef.Create("pointing.cooldown_seconds", 0.5f, CVar.SERVERONLY);
+        CVarDef.Create("pointing.cooldown_seconds", 1.5f, CVar.SERVERONLY);
 
     /// <summary>
     ///     The amount of time between NPC Silicons draining their battery in seconds.
@@ -102,5 +102,5 @@ public sealed partial class CCVars
         CVarDef.Create("silicon.npcupdatetime", 1.5f, CVar.SERVERONLY);
 
     public static readonly CVarDef<bool> AllowScreamAction =
-        CVarDef.Create("vocal.allow_scream_action", true, CVar.SERVERONLY);
+        CVarDef.Create("vocal.allow_scream_action", false, CVar.SERVERONLY);
 }

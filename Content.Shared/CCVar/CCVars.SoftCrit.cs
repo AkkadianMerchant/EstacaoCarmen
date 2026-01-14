@@ -13,7 +13,7 @@ public sealed partial class CCVars
         CVarDef.Create("mobstate.allow_movement_while_crit", true, CVar.REPLICATED);
 
     public static readonly CVarDef<bool> AllowTalkingWhileCrit =
-        CVarDef.Create("mobstate.allow_talking_while_crit", true, CVar.REPLICATED);
+        CVarDef.Create("mobstate.allow_talking_while_crit", false, CVar.REPLICATED);
 
     /// <summary>
     ///     Currently does nothing because I would have to figure out WHERE I would even put this check, and the mover controller is fairly complicated.

@@ -21,7 +21,7 @@
 - type: startingGear
   id: CentcomGear
   subGear:
-  - CentcomPlasmamanGear
+  - CentcomPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomOfficial
     shoes: ClothingShoesBootsCombatFilled
@@ -36,8 +36,8 @@
     pocket2: PenCentcom
 
 - type: startingGear
-  id: CentcomPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: CentcomPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitCentcomOfficial
     head: ClothingHeadEnvirohelmCentcomOfficial

@@ -49,7 +49,7 @@
 - type: startingGear
   id: WardenGear
   subGear:
-  - WardenPlasmamanGear
+  - WardenPhoronmanGear
   equipment:
     head: ClothingHeadHatWarden
     jumpsuit: ClothingUniformJumpsuitWarden
@@ -62,8 +62,8 @@
     belt: ClothingBeltSecurityFilled
 
 - type: startingGear
-  id: WardenPlasmamanGear
-  parent: BasePlasmamanSecurityGear
+  id: WardenPhoronmanGear
+  parent: BasePhoronmanSecurityGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitWarden
     head: ClothingHeadEnvirohelmWarden

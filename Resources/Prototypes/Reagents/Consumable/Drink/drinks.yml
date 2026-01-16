@@ -269,7 +269,7 @@
       - !type:HealthChange
         conditions:
         - !type:OrganType
-          type: Plasmaman
+          type: Phoronman
         damage:
           groups:
             Brute: -0.90
@@ -280,11 +280,11 @@
       - !type:ChemAddMoodlet
         conditions:
         - !type:OrganType
-          type: Plasmaman
+          type: Phoronman
         - !type:ReagentThreshold
           reagent: Milk
           min: 4
-        moodPrototype: PlasmamanIngestMilk
+        moodPrototype: PhoronmanIngestMilk
 
 - type: reagent
   id: MilkGoat

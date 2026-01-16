@@ -684,7 +684,7 @@
         - Security
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
   items:
     - ClothingUniformEnvirosuitSecBlue
     - ClothingHeadEnvirohelmSecBlue
@@ -702,7 +702,7 @@
         - Security
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
   items:
     - ClothingUniformEnvirosuitSecGrey
     - ClothingHeadEnvirohelmSecGrey

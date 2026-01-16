@@ -24,7 +24,7 @@
 - type: startingGear
   id: LawyerGear
   subGear:
-  - LawyerPlasmamanGear
+  - LawyerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerBlack  # TODO change jumpsuit to randomiser of the 4 variants
     back: ClothingBackpack
@@ -40,8 +40,8 @@
     - RubberStampLawyer
 
 - type: startingGear
-  id: LawyerPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: LawyerPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitEnviroslacks
     head: ClothingHeadEnvirohelmColorWhite

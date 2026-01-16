@@ -361,7 +361,7 @@
     Heat: 1.2
 
 - type: damageModifierSet
-  id: Plasmaman
+  id: Phoronman
   coefficients:
     Blunt: 1.5
     Slash: 0.8

@@ -678,7 +678,7 @@
   name: WindowReinforcedDirectional
 - action: !type:InstantActionComponent
     icon:
-      entity: PlasmaWindowDirectional
+      entity: PhoronWindowDirectional
     keywords: []
     checkCanInteract: False
     checkConsciousness: False
@@ -687,10 +687,10 @@
     temporary: True
     event: !type:StartPlacementActionEvent
       placementOption: SnapgridCenter
-      entityType: PlasmaWindowDirectional
+      entityType: PhoronWindowDirectional
   assignments:
   - 5: 3
-  name: PlasmaWindowDirectional
+  name: PhoronWindowDirectional
 - action: !type:InstantActionComponent
     icon:
       entity: Railing

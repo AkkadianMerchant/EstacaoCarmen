@@ -53,7 +53,7 @@
 - type: startingGear
   id: SeniorOfficerGear
   subGear:
-  - SecurityOfficerPlasmamanGear
+  - SecurityOfficerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorOfficer
     back: ClothingBackpackSecurity

@@ -7154,7 +7154,7 @@ entities:
     - type: Transform
       pos: 36.5,22.5
       parent: 2
-- proto: AtmosFixPlasmaMarker
+- proto: AtmosFixPhoronMarker
   entities:
   - uid: 430
     components:
@@ -30974,7 +30974,7 @@ entities:
     - type: Transform
       pos: 1.5,-42.5
       parent: 2
-- proto: CrateMaterialPlasma
+- proto: CrateMaterialPhoron
   entities:
   - uid: 4975
     components:
@@ -38016,7 +38016,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 36.5,22.5
       parent: 2
-- proto: GasMinerPlasma
+- proto: GasMinerPhoron
   entities:
   - uid: 6080
     components:
@@ -50586,8 +50586,8 @@ entities:
   - uid: 7737
     components:
     - type: MetaData
-      desc: A pump that moves plasma by pressure.
-      name: plasma pump
+      desc: A pump that moves phoron by pressure.
+      name: phoron pump
     - type: Transform
       pos: 43.5,17.5
       parent: 2
@@ -59421,7 +59421,7 @@ entities:
     - type: Transform
       pos: 51.5,18.5
       parent: 2
-- proto: PlasmaCanister
+- proto: PhoronCanister
   entities:
   - uid: 9102
     components:
@@ -59443,7 +59443,7 @@ entities:
     - type: Transform
       pos: 36.5,10.5
       parent: 2
-- proto: PlasmaTankFilled
+- proto: PhoronTankFilled
   entities:
   - uid: 9106
     components:
@@ -63294,7 +63294,7 @@ entities:
     - type: DeviceLinkSink
       links:
       - 10221
-- proto: ReinforcedPlasmaWindow
+- proto: ReinforcedPhoronWindow
   entities:
   - uid: 9744
     components:
@@ -65432,14 +65432,14 @@ entities:
     - type: Transform
       pos: 8.687881,-17.407122
       parent: 2
-- proto: SheetPlasma
+- proto: SheetPhoron
   entities:
   - uid: 10141
     components:
     - type: Transform
       pos: -6.54687,-32.500237
       parent: 2
-- proto: SheetPlasma1
+- proto: SheetPhoron1
   entities:
   - uid: 10142
     components:
@@ -69209,7 +69209,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
       nameSet: True
-      id: Plasma
+      id: Phoron
   - uid: 10695
     components:
     - type: Transform
@@ -81173,7 +81173,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 36.5,20.5
       parent: 2
-- proto: WarningPlasma
+- proto: WarningPhoron
   entities:
   - uid: 12843
     components:

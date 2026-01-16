@@ -56,8 +56,8 @@ thief-backpack-category-communicator-description =
     Includes: Master key for all station channels, a CyberSun pen,
     voice chameleon mask, and 20k spesos inside a briefcase.
 
-thief-backpack-category-communicator-plasmaman-name = communicator kit
-thief-backpack-category-communicator-plasmaman-description =
+thief-backpack-category-communicator-phoronman-name = communicator kit
+thief-backpack-category-communicator-phoronman-description =
     Money is power, and secrets are money. Use your silver tongue
     and wealth to subvert the station.
     Includes: Master key for all station channels, a CyberSun pen,

@@ -107,7 +107,7 @@
   reactants:
     Oxygen:
       amount: 2
-    Plasma:
+    Phoron:
       amount: 1
       catalyst: true
   products:
@@ -188,7 +188,7 @@
       amount: 1
     Fersilicite:
       amount: 1
-    Plasma:
+    Phoron:
       amount: 1
       catalyst: true
   products:
@@ -225,7 +225,7 @@
       amount: 5
     Necrosol:
       amount: 1
-    Plasma:
+    Phoron:
       amount: 5
   products:
     AmbuzolPlus: 10
@@ -281,7 +281,7 @@
   reactants:
     HeartbreakerToxin:
       amount: 1
-    Plasma:
+    Phoron:
       amount: 3
     Impedrezene:
       amount: 3
@@ -342,7 +342,7 @@
   reactants:
     Histamine:
       amount: 2
-    Plasma:
+    Phoron:
       amount: 1
       catalyst: true
   products:
@@ -565,7 +565,7 @@
   reactants:
     Acetone:
       amount: 1
-    Plasma:
+    Phoron:
       amount: 2
     Doxarubixadone:
       amount: 1
@@ -635,7 +635,7 @@
       amount: 1
     Ethanol:
       amount: 1
-    Plasma:
+    Phoron:
       amount: 5
       catalyst: true
   products:

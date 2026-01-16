@@ -64,7 +64,7 @@
 - type: startingGear
   id: ResearchDirectorGear
   subGear:
-  - ResearchDirectorPlasmamanGear
+  - ResearchDirectorPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitResearchDirector
     back: ClothingBackpackScience
@@ -78,8 +78,8 @@
     - Flash
 
 - type: startingGear
-  id: ResearchDirectorPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: ResearchDirectorPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitResearchDirector
     head: ClothingHeadEnvirohelmResearchDirector

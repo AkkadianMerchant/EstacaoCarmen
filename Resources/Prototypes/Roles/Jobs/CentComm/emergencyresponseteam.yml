@@ -18,7 +18,7 @@
   id: ERTLeaderGear
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTLeader
     back: ClothingBackpackERTLeader
@@ -45,7 +45,7 @@
   id: ERTLeaderGearEVA
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTLeader
@@ -73,7 +73,7 @@
   id: ERTLeaderGearEVALecter
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTLeader
@@ -123,7 +123,7 @@
   id: ERTChaplainGear
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTChaplain
     back: ClothingBackpackERTChaplain
@@ -157,7 +157,7 @@
   id: ERTChaplainGearEVA
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTChaplain
@@ -208,7 +208,7 @@
   id: ERTEngineerGear
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTEngineer
     back: ClothingBackpackERTEngineer
@@ -239,7 +239,7 @@
   id: ERTEngineerGearEVA
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTEngineer
@@ -287,7 +287,7 @@
   id: ERTSecurityGear
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTSecurity
     back: ClothingBackpackERTSecurity
@@ -314,7 +314,7 @@
   id: ERTSecurityGearEVA
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTSecurity
@@ -342,7 +342,7 @@
   id: ERTSecurityGearEVALecter
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTSecurity
@@ -388,7 +388,7 @@
   id: ERTMedicalGear
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTMedic
     back: ClothingBackpackERTMedical
@@ -414,7 +414,7 @@
   id: ERTMedicalGearEVA
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTMedic
@@ -457,7 +457,7 @@
   id: ERTJanitorGear
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTJanitor
     back: ClothingBackpackERTJanitor
@@ -482,7 +482,7 @@
   id: ERTJanitorGearEVA
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear
+  - ERTPhoronmanGear
   - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTJanitor
@@ -504,10 +504,10 @@
     - CrowbarRed
     - AdvMopItem
 
-# Plasmaman
+# Phoronman
 - type: startingGear
-  id: ERTPlasmamanGear
-  parent: BasePlasmamanGear
+  id: ERTPhoronmanGear
+  parent: BasePhoronmanGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitColorBlack # TODO: ERT envirosuit
     head: ClothingHeadEnvirohelmColorBlack # TODO: ERT envirohelm

@@ -21,7 +21,7 @@
 - type: startingGear
   id: PsychologistGear
   subGear:
-  - PsychologistPlasmamanGear
+  - PsychologistPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitPsychologist
     back: ClothingBackpackMedical
@@ -33,8 +33,8 @@
     - RubberStampPsychologist
 
 - type: startingGear
-  id: PsychologistPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: PsychologistPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitEnviroslacksPsychologist
     head: ClothingHeadEnvirohelmMedicalDoctor

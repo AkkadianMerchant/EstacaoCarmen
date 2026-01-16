@@ -32585,7 +32585,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 47.5,31.5
       parent: 1
-- proto: PlasmaWindoorSecureCentralCommandLocked
+- proto: PhoronWindoorSecureCentralCommandLocked
   entities:
   - uid: 54
     components:
@@ -34929,7 +34929,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 56.5,15.5
       parent: 1
-- proto: ReinforcedPlasmaWindow
+- proto: ReinforcedPhoronWindow
   entities:
   - uid: 90
     components:
@@ -36394,7 +36394,7 @@ entities:
     - type: Transform
       pos: 64.54074,77.61821
       parent: 1
-- proto: SheetPlasma
+- proto: SheetPhoron
   entities:
   - uid: 5302
     components:
@@ -44924,7 +44924,7 @@ entities:
     - type: Transform
       pos: 47.5,61.5
       parent: 1
-- proto: WindoorPlasma
+- proto: WindoorPhoron
   entities:
   - uid: 6898
     components:

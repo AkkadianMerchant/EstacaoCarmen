@@ -25,7 +25,7 @@
 - type: startingGear
   id: SyndicateOperativeGearFullNoUplink
   subGear:
-  - SyndicateOperativePlasmamanGear
+  - SyndicateOperativePhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitOperative
     back: ClothingBackpackDuffelSyndicate
@@ -46,12 +46,12 @@
     - DeathAcidifierImplanter
 
 - type: startingGear
-  id: SyndicateOperativePlasmamanGear
-  parent: BasePlasmamanGear
+  id: SyndicateOperativePhoronmanGear
+  parent: BasePhoronmanGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitOperative
     head: ClothingHeadEnvirohelmOperative
-    pocket1: DoubleEmergencyPlasmaTankFilled
+    pocket1: DoubleEmergencyPhoronTankFilled
 
 #Nuclear Operative Gear
 - type: startingGear

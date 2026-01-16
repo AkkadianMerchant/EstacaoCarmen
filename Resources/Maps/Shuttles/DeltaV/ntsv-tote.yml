@@ -895,7 +895,7 @@ entities:
     - type: Transform
       pos: -1.5,-2.5
       parent: 1
-- proto: SheetPlasma
+- proto: SheetPhoron
   entities:
   - uid: 88
     components:

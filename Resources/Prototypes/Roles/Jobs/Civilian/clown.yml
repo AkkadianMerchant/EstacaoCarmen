@@ -30,7 +30,7 @@
 - type: startingGear
   id: ClownGear
   subGear:
-  - ClownPlasmamanGear
+  - ClownPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitClown
     back: ClothingBackpackClown
@@ -42,8 +42,8 @@
     ears: ClothingHeadsetService
 
 - type: startingGear
-  id: ClownPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: ClownPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitClown
     head: ClothingHeadEnvirohelmClown

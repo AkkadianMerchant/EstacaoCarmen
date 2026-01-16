@@ -25,7 +25,7 @@
 - type: startingGear
   id: SyndicateOperativeClothing
   subGear:
-  - SyndicatePlasmamanGear
+  - SyndicatePhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitOperative
     back: ClothingBackpackSyndicate
@@ -33,12 +33,12 @@
     gloves: ClothingHandsGlovesColorBlack
 
 - type: startingGear
-  id: SyndicatePlasmamanGear
-  parent: BasePlasmamanGear
+  id: SyndicatePhoronmanGear
+  parent: BasePhoronmanGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitOperative
     head: ClothingHeadEnvirohelmOperative
-    pocket1: DoubleEmergencyPlasmaTankFilled
+    pocket1: DoubleEmergencyPhoronTankFilled
 
 - type: startingGear
   id: SyndicateOperativeGearExtremelyBasic

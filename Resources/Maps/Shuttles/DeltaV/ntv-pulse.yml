@@ -2773,7 +2773,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -5.2805943,-2.319523
       parent: 1
-- proto: SheetPlasma
+- proto: SheetPhoron
   entities:
   - uid: 535
     components:

@@ -20,7 +20,7 @@
 - type: startingGear
   id: ReporterGear
   subGear:
-  - ReporterPlasmamanGear
+  - ReporterPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitReporter
     back: ClothingBackpack
@@ -29,8 +29,8 @@
     ears: ClothingHeadsetService
 
 - type: startingGear
-  id: ReporterPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: ReporterPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitReporter
     head: ClothingHeadEnvirohelmReporter

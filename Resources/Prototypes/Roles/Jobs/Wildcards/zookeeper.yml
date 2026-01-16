@@ -19,7 +19,7 @@
 - type: startingGear
   id: ZookeeperGear
   subGear:
-  - ZookeeperPlasmamanGear
+  - ZookeeperPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSafari
     back: ClothingBackpack
@@ -29,8 +29,8 @@
     ears: ClothingHeadsetService
 
 - type: startingGear
-  id: ZookeeperPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: ZookeeperPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitSafari
     head: ClothingHeadEnvirohelmSafari

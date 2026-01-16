@@ -1609,7 +1609,7 @@ entities:
       parent: 270
     - type: Physics
       canCollide: False
-- proto: PlasmaReinforcedWindowDirectional
+- proto: PhoronReinforcedWindowDirectional
   entities:
   - uid: 7
     components:

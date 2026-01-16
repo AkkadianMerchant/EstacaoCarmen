@@ -374,7 +374,7 @@ entities:
     - type: Transform
       pos: 4.5,-0.5
       parent: 85
-- proto: AtmosFixInstantPlasmaFireMarker
+- proto: AtmosFixInstantPhoronFireMarker
   entities:
   - uid: 38
     components:
@@ -481,7 +481,7 @@ entities:
     - type: Transform
       pos: -5.5,4.5
       parent: 85
-- proto: AtmosFixPlasmaMarker
+- proto: AtmosFixPhoronMarker
   entities:
   - uid: 165
     components:
@@ -998,7 +998,7 @@ entities:
     - type: Transform
       pos: -2.5,1.5
       parent: 85
-- proto: ReinforcedPlasmaWindow
+- proto: ReinforcedPhoronWindow
   entities:
   - uid: 29
     components:

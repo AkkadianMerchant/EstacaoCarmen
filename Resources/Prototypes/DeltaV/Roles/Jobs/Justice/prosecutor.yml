@@ -19,7 +19,7 @@
 - type: startingGear
   id: ProsecutorGear
   subGear:
-  - PassengerPlasmamanGear
+  - PassengerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitProsecutor
     neck: ClothingNeckProsecutorbadge

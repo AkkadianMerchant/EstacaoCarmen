@@ -1,5 +1,5 @@
 - type: inventoryTemplate
-  id: plasmaman
+  id: phoronman
   slots:
     - name: shoes
       slotTexture: shoes
@@ -17,7 +17,7 @@
       displayName: Jumpsuit
       spawnWhitelist:
         tags:
-          - PlasmamanSafe
+          - PhoronmanSafe
     - name: outerClothing
       slotTexture: suit
       slotFlags: OUTERCLOTHING
@@ -65,7 +65,7 @@
       displayName: Head
       spawnWhitelist:
         tags:
-          - PlasmamanSafe
+          - PhoronmanSafe
     - name: pocket1
       slotTexture: pocket
       fullTextureName: template_small

@@ -37,7 +37,7 @@
   completetime: 5
   materials:
     Steel: 500
-    Plasma: 250
+    Phoron: 250
 
 - type: latheRecipe
   id: ModsuitPlatingExternal
@@ -47,4 +47,4 @@
   materials:
     Steel: 300
     Glass: 150
-    Plasma: 50
+    Phoron: 50

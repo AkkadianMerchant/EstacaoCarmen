@@ -88,10 +88,10 @@
         amount: 4
 
 - type: entity
-  id: CratePlasmaInternals
+  id: CratePhoronInternals
   parent: CrateInternals
-  name: internals crate (plasma)
-  description: Contains four breath masks and four plasma internals tanks. Intended for Plasmamen.
+  name: internals crate (phoron)
+  description: Contains four breath masks and four phoron internals tanks. Intended for Phoronmen.
   components:
   - type: StorageFill
     contents:
@@ -99,14 +99,14 @@
         amount: 2
       - id: ClothingMaskBreath
         amount: 2
-      - id: DoubleEmergencyPlasmaTankFilled
+      - id: DoubleEmergencyPhoronTankFilled
         amount: 4
 
 - type: entity
-  id: CratePlasmamanEnvirosuit
+  id: CratePhoronmanEnvirosuit
   parent: CrateInternals
-  name: plasma envirosuit crate
-  description: Contains two full sets of envirosuits, two breath masks, and two plasma internals tanks. Intended for Plasmamen.
+  name: phoron envirosuit crate
+  description: Contains two full sets of envirosuits, two breath masks, and two phoron internals tanks. Intended for Phoronmen.
   components:
   - type: StorageFill
     contents:
@@ -118,7 +118,7 @@
         amount: 2
       - id: ClothingMaskBreath
         amount: 2
-      - id: DoubleEmergencyPlasmaTankFilled
+      - id: DoubleEmergencyPhoronTankFilled
         amount: 2
 
 - type: entity

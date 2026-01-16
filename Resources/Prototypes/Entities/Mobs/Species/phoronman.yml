@@ -1,11 +1,11 @@
 - type: entity
   parent: BaseMobSpeciesOrganic
-  id: BaseMobPlasmaman
-  name: Urist McPlasma
+  id: BaseMobPhoronman
+  name: Urist McPhoron
   abstract: true
   components:
   - type: Icon
-    sprite: Mobs/Species/Plasmaman/parts.rsi
+    sprite: Mobs/Species/Phoronman/parts.rsi
     state: full
   - type: Sprite
     layers:
@@ -54,7 +54,7 @@
       visible: false
   - type: Carriable
   - type: Body
-    prototype: Plasmaman
+    prototype: Phoronman
     requiredLegs: 2
     gibSound: /Audio/Effects/bone_rattle.ogg
   - type: SpawnGasOnGib
@@ -63,7 +63,7 @@
       - 0    # oxygen
       - 0    # nitrogen
       - 0    # CO2
-      - 100  # plasma
+      - 100  # phoron
   - type: Fixtures
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
@@ -91,7 +91,7 @@
     bloodRegenerationThirst: 0
     bloodMaxVolume: 0
   - type: Damageable
-    damageModifierSet: Plasmaman
+    damageModifierSet: Phoronman
   - type: Destructible
     thresholds:
     - trigger:
@@ -121,7 +121,7 @@
           - 0    # oxygen
           - 0    # nitrogen
           - 0    # CO2
-          - 80   # plasma, lower than gas on gibbing
+          - 80   # phoron, lower than gas on gibbing
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:
@@ -146,13 +146,13 @@
     speechVerb: Skeleton
   - type: Vocal
     sounds:
-      Male: UnisexPlasmaman
-      Female: UnisexPlasmaman
-      Unsexed: UnisexPlasmaman
+      Male: UnisexPhoronman
+      Female: UnisexPhoronman
+      Unsexed: UnisexPhoronman
   - type: Butcherable
     butcheringType: Spike
     spawned:
-    - id: SheetPlasma1
+    - id: SheetPhoron1
       amount: 8
   - type: Temperature
     heatDamageThreshold: 308    # 35 celsius, -17 from base heat damage threshold
@@ -172,12 +172,12 @@
   - type: Flammable
     firestackFade: -0.05
   - type: HumanoidAppearance
-    species: Plasmaman
+    species: Phoronman
     hideLayersOnEquip:
     - Hair
     - Snout
   - type: TypingIndicator
-    proto: plasmaman
+    proto: phoronman
   - type: LanguageKnowledge
     speaks:
     - TauCetiBasic
@@ -187,7 +187,7 @@
     - Calcic
   - type: FootPrints
   - type: Inventory
-    templateId: plasmaman
+    templateId: phoronman
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
@@ -197,13 +197,13 @@
 
 - type: entity
   parent: BaseSpeciesDummy
-  id: MobPlasmamanDummy
+  id: MobPhoronmanDummy
   categories: [ HideSpawnMenu ]
   components:
   - type: HumanoidAppearance
-    species: Plasmaman
+    species: Phoronman
   - type: Inventory
-    templateId: plasmaman
+    templateId: phoronman
     femaleDisplacements:
       jumpsuit:
         sizeMaps:

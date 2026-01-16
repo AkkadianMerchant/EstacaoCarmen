@@ -17,7 +17,7 @@
   id: DeathSquadGear
   subGear:
   - BoxSurvivalEngineering
-  - ERTPlasmamanGear # TODO: death squad envirosuit
+  - ERTPhoronmanGear # TODO: death squad envirosuit
   - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitDeathSquad

@@ -128,7 +128,7 @@
     autoRechargeRate: 2
   - type: Tag
     tags:
-    - PlasmamanSafe
+    - PhoronmanSafe
     - Envirohelm
   - type: IgniteFromGasImmunity
     parts:

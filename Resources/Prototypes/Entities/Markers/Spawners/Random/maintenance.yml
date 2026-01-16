@@ -205,8 +205,8 @@
         - id: DoubleEmergencyNitrogenTankFilled
       - !type:GroupSelector
         children:
-        - id: PlasmaTankFilled
-        - id: DoubleEmergencyPlasmaTankFilled
+        - id: PhoronTankFilled
+        - id: DoubleEmergencyPhoronTankFilled
       - id: EmergencyFunnyOxygenTankFilled
         weight: 0.5
       - !type:GroupSelector

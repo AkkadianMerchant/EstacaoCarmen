@@ -145,7 +145,7 @@
   parent: [ EncryptionKey, BaseScienceContraband ]
   id: EncryptionKeyScience
   name: epistemics encryption key # DeltaV - Epistemics Department replacing Science
-  description: An encryption key used by scientists. Maybe it is plasmaproof?
+  description: An encryption key used by scientists. Maybe it is phoronproof?
   components:
   - type: EncryptionKey
     channels:

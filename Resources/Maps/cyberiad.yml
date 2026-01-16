@@ -19194,7 +19194,7 @@ entities:
     - type: Transform
       pos: -3.5,-101.5
       parent: 2
-- proto: AtmosFixPlasmaMarker
+- proto: AtmosFixPhoronMarker
   entities:
   - uid: 1177
     components:
@@ -84470,7 +84470,7 @@ entities:
     - type: Transform
       pos: 0.5,-5.5
       parent: 2
-- proto: CratePlasma
+- proto: CratePhoron
   entities:
   - uid: 13250
     components:
@@ -101467,7 +101467,7 @@ entities:
     - type: Transform
       pos: -4.5,-101.5
       parent: 2
-- proto: GasMinerPlasma
+- proto: GasMinerPhoron
   entities:
   - uid: 15872
     components:
@@ -144372,7 +144372,7 @@ entities:
       materialWhiteList:
       - Steel
       - Glass
-      - Plasma
+      - Phoron
       - Uranium
       - Gold
       - Silver
@@ -145616,7 +145616,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 12.5,-77.5
       parent: 2
-- proto: PlasmaCanister
+- proto: PhoronCanister
   entities:
   - uid: 22158
     components:
@@ -145633,7 +145633,7 @@ entities:
     - type: Transform
       pos: -21.5,-93.5
       parent: 2
-- proto: PlasmaReinforcedWindowDirectional
+- proto: PhoronReinforcedWindowDirectional
   entities:
   - uid: 22161
     components:
@@ -153724,7 +153724,7 @@ entities:
     - type: Transform
       pos: -4.5,-43.5
       parent: 2
-- proto: ReinforcedPlasmaWindow
+- proto: ReinforcedPhoronWindow
   entities:
   - uid: 23475
     components:
@@ -158923,7 +158923,7 @@ entities:
     - type: Transform
       pos: -4.3671594,-81.65052
       parent: 2
-- proto: SheetPlasma
+- proto: SheetPhoron
   entities:
   - uid: 24464
     components:
@@ -158940,7 +158940,7 @@ entities:
     - type: Transform
       pos: 1.8151484,-18.351437
       parent: 2
-- proto: SheetPlasma1
+- proto: SheetPhoron1
   entities:
   - uid: 24467
     components:
@@ -158957,7 +158957,7 @@ entities:
     - type: Transform
       pos: 57.348213,-49.249336
       parent: 2
-- proto: SheetPlasma10
+- proto: SheetPhoron10
   entities:
   - uid: 24470
     components:
@@ -166795,7 +166795,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
       nameSet: True
-      id: Plasma
+      id: Phoron
   - uid: 25625
     components:
     - type: Transform
@@ -171121,7 +171121,7 @@ entities:
     - type: Transform
       pos: -18.5,2.5
       parent: 2
-- proto: TablePlasmaGlass
+- proto: TablePhoronGlass
   entities:
   - uid: 26275
     components:
@@ -196186,7 +196186,7 @@ entities:
     - type: Transform
       pos: -4.5,-98.5
       parent: 2
-- proto: WarningPlasma
+- proto: WarningPhoron
   entities:
   - uid: 30949
     components:

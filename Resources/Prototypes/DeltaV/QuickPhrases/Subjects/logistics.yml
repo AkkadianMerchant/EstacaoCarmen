@@ -131,9 +131,9 @@
   text: phrase-silver
 
 - type: quickPhrase
-  id: PhraseLogisticsPlasma
+  id: PhraseLogisticsPhoron
   parent: BaseLogisticsSubjectPhrase
-  text: phrase-plasma
+  text: phrase-phoron
 
 - type: quickPhrase
   id: PhraseLogisticsUranium

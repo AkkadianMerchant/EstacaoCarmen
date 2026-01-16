@@ -1,41 +1,41 @@
 # TODO: Add descriptions (many)
 # TODO BODY: Part damage
 - type: entity
-  id: PartPlasmaman
+  id: PartPhoronman
   parent: [BaseItem, BasePart]
-  name: plasmaman body part
+  name: phoronman body part
   abstract: true
   components:
   - type: Sprite
-    sprite: Mobs/Species/Plasmaman/parts.rsi
+    sprite: Mobs/Species/Phoronman/parts.rsi
   - type: Butcherable
     butcheringType: Knife
     butcherDelay: 4.0
     spawned:
-    - id: SheetPlasma1
+    - id: SheetPhoron1
       amount: 1
   - type: IgniteFromGasPart
     gas: Oxygen
 
 - type: entity
-  id: TorsoPlasmaman
-  name: plasmaman torso
-  parent: [PartPlasmaman, BaseTorso]
+  id: TorsoPhoronman
+  name: phoronman torso
+  parent: [PartPhoronman, BaseTorso]
   components:
   - type: Sprite
     state: torso_m
   - type: Butcherable
     butcherDelay: 6.0
     spawned:
-    - id: SheetPlasma1
+    - id: SheetPhoron1
       amount: 3
   - type: IgniteFromGasPart
     fireStacks: 0.06
 
 - type: entity
-  id: HeadPlasmaman
-  name: plasmaman head
-  parent: [PartPlasmaman, BaseHead]
+  id: HeadPhoronman
+  name: phoronman head
+  parent: [PartPhoronman, BaseHead]
   components:
   - type: Sprite
     state: head_m
@@ -45,9 +45,9 @@
     fireStacks: 0.02
 
 - type: entity
-  id: LeftArmPlasmaman
-  name: left plasmaman arm
-  parent: [PartPlasmaman, BaseLeftArm]
+  id: LeftArmPhoronman
+  name: left phoronman arm
+  parent: [PartPhoronman, BaseLeftArm]
   components:
   - type: Sprite
     state: l_arm
@@ -55,9 +55,9 @@
     fireStacks: 0.02
 
 - type: entity
-  id: RightArmPlasmaman
-  name: right plasmaman arm
-  parent: [PartPlasmaman, BaseRightArm]
+  id: RightArmPhoronman
+  name: right phoronman arm
+  parent: [PartPhoronman, BaseRightArm]
   components:
   - type: Sprite
     state: r_arm
@@ -65,9 +65,9 @@
     fireStacks: 0.02
 
 - type: entity
-  id: LeftHandPlasmaman
-  name: left plasmaman hand
-  parent: [PartPlasmaman, BaseLeftHand]
+  id: LeftHandPhoronman
+  name: left phoronman hand
+  parent: [PartPhoronman, BaseLeftHand]
   components:
   - type: Sprite
     state: l_hand
@@ -77,9 +77,9 @@
     fireStacks: 0.01
 
 - type: entity
-  id: RightHandPlasmaman
-  name: right plasmaman hand
-  parent: [PartPlasmaman, BaseRightHand]
+  id: RightHandPhoronman
+  name: right phoronman hand
+  parent: [PartPhoronman, BaseRightHand]
   components:
   - type: Sprite
     state: r_hand
@@ -89,9 +89,9 @@
     fireStacks: 0.01
 
 - type: entity
-  id: LeftLegPlasmaman
-  name: left plasmaman leg
-  parent: [PartPlasmaman, BaseLeftLeg]
+  id: LeftLegPhoronman
+  name: left phoronman leg
+  parent: [PartPhoronman, BaseLeftLeg]
   components:
   - type: Sprite
     state: l_leg
@@ -99,9 +99,9 @@
     fireStacks: 0.02
 
 - type: entity
-  id: RightLegPlasmaman
-  name: right plasmaman leg
-  parent: [PartPlasmaman, BaseRightLeg]
+  id: RightLegPhoronman
+  name: right phoronman leg
+  parent: [PartPhoronman, BaseRightLeg]
   components:
   - type: Sprite
     state: r_leg
@@ -109,9 +109,9 @@
     fireStacks: 0.02
 
 - type: entity
-  id: LeftFootPlasmaman
-  name: left plasmaman foot
-  parent: [PartPlasmaman, BaseLeftFoot]
+  id: LeftFootPhoronman
+  name: left phoronman foot
+  parent: [PartPhoronman, BaseLeftFoot]
   components:
   - type: Sprite
     state: l_foot
@@ -121,9 +121,9 @@
     fireStacks: 0.01
 
 - type: entity
-  id: RightFootPlasmaman
-  name: right plasmaman foot
-  parent: [PartPlasmaman, BaseRightFoot]
+  id: RightFootPhoronman
+  name: right phoronman foot
+  parent: [PartPhoronman, BaseRightFoot]
   components:
   - type: Sprite
     state: r_foot

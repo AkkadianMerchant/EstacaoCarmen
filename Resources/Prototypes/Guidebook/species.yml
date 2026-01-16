@@ -13,7 +13,7 @@
     - IPC
     - Harpy
     - Shadowkin
-    - Plasmaman
+    - Phoronman
 #    - Chitinid
     - Tajaran
     - Xelthia
@@ -77,9 +77,9 @@
   text: "/ServerInfo/Guidebook/Mobs/Tajaran.xml"
 
 - type: guideEntry
-  id: Plasmaman
-  name: species-name-plasmaman
-  text: "/ServerInfo/Guidebook/Mobs/Plasmaman.xml"
+  id: Phoronman
+  name: species-name-phoronman
+  text: "/ServerInfo/Guidebook/Mobs/Phoronman.xml"
 
 - type: guideEntry
   id: Xelthia

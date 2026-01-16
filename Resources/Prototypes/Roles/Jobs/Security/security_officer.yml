@@ -44,7 +44,7 @@
 - type: startingGear
   id: SecurityOfficerGear
   subGear:
-  - SecurityOfficerPlasmamanGear
+  - SecurityOfficerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSec
     back: ClothingBackpackSecurity
@@ -57,8 +57,8 @@
     belt: ClothingBeltSecurityFilled
 
 - type: startingGear
-  id: SecurityOfficerPlasmamanGear
-  parent: BasePlasmamanSecurityGear
+  id: SecurityOfficerPhoronmanGear
+  parent: BasePhoronmanSecurityGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitSec
     head: ClothingHeadEnvirohelmSec

@@ -34,9 +34,9 @@
     - Vox
 
 - type: startingGear
-  id: PlasmaBreather
+  id: PhoronBreather
   abstract: true
   requirements:
   - !type:CharacterSpeciesRequirement
     species:
-    - Plasmaman
+    - Phoronman

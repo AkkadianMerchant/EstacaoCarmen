@@ -610,14 +610,14 @@ entities:
       rot: 3.141592653589793 rad
       pos: 8.5,4.5
       parent: 2
-- proto: SheetPlasma1
+- proto: SheetPhoron1
   entities:
   - uid: 209
     components:
     - type: Transform
       pos: 8.064848,4.573121
       parent: 2
-- proto: SheetPlasma10
+- proto: SheetPhoron10
   entities:
   - uid: 47
     components:

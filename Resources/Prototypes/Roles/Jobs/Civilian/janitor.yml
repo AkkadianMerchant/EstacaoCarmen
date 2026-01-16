@@ -18,7 +18,7 @@
 - type: startingGear
   id: JanitorGear
   subGear:
-  - JanitorPlasmamanGear
+  - JanitorPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitJanitor
     back: ClothingBackpack
@@ -30,8 +30,8 @@
     belt: ClothingBeltJanitorFilled
 
 - type: startingGear
-  id: JanitorPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: JanitorPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitJanitor
     head: ClothingHeadEnvirohelmJanitor
@@ -40,7 +40,7 @@
 - type: startingGear
   id: JanitorMaidGear
   subGear:
-  - JanitorPlasmamanGear
+  - JanitorPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpskirtJanimaid
     back: ClothingBackpack

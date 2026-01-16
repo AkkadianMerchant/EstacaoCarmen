@@ -53,7 +53,7 @@
 - type: startingGear
   id: MagistrateGear
   subGear:
-  - MagistratePlasmamanGear
+  - MagistratePhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMagistrate
     shoes: ClothingShoesLeather
@@ -63,8 +63,8 @@
     pocket1: UniqueMagistrateLockerTeleporter
 
 - type: startingGear
-  id: MagistratePlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: MagistratePhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitMagistrate
     head: ClothingHeadEnvirohelmMagistrate

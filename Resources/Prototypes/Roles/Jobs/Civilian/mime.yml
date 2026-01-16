@@ -19,7 +19,7 @@
 - type: startingGear
   id: MimeGear
   subGear:
-  - MimePlasmamanGear
+  - MimePhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMime
     back: ClothingBackpackMime
@@ -36,8 +36,8 @@
     - RubberStampMime
 
 - type: startingGear
-  id: MimePlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: MimePhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitMime
     head: ClothingHeadEnvirohelmMime

@@ -4840,7 +4840,7 @@ entities:
     - pos: -1.5,7.5
       parent: 1
       type: Transform
-- proto: PlasmaReinforcedWindowDirectional
+- proto: PhoronReinforcedWindowDirectional
   entities:
   - uid: 685
     components:
@@ -4854,7 +4854,7 @@ entities:
       pos: 3.5,-13.5
       parent: 1
       type: Transform
-- proto: PlasmaWindowDirectional
+- proto: PhoronWindowDirectional
   entities:
   - uid: 687
     components:

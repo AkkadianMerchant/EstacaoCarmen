@@ -58,13 +58,13 @@
   description: alerts-low-nitrogen-desc
 
 - type: alert
-  id: LowPlasma
+  id: LowPhoron
   category: Breathing
   icons:
   - sprite: /Textures/Interface/Alerts/breathing.rsi
     state: not_enough_tox
-  name: alerts-low-plasma-name
-  description: alerts-low-plasma-desc
+  name: alerts-low-phoron-name
+  description: alerts-low-phoron-desc
 
 - type: alert
   id: HighOxygen

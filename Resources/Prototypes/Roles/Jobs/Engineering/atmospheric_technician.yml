@@ -24,7 +24,7 @@
 - type: startingGear
   id: AtmosphericTechnicianGear
   subGear:
-  - AtmosphericTechnicianPlasmamanGear
+  - AtmosphericTechnicianPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitAtmos
     back: ClothingBackpackAtmospherics
@@ -33,8 +33,8 @@
     ears: ClothingHeadsetEngineering
 
 - type: startingGear
-  id: AtmosphericTechnicianPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: AtmosphericTechnicianPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitAtmos
     head: ClothingHeadEnvirohelmAtmos

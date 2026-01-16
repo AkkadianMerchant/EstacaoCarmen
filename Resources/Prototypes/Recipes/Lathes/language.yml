@@ -97,7 +97,7 @@
     Steel: 200
     Plastic: 50
     Gold: 50
-    Plasma: 50
+    Phoron: 50
     Silver: 50
 
 - type: latheRecipe
@@ -196,5 +196,5 @@
     Steel: 200
     Plastic: 50
     Gold: 50
-    Plasma: 50
+    Phoron: 50
     Silver: 5

@@ -945,19 +945,19 @@
     color: orange
 
 - type: entity
-  id: FishPlasmaLoop
+  id: FishPhoronLoop
   parent: BaseFishRare
-  name: plasma loop
-  description: An energy-wreathed fish that glows with unstable plasma currents.
+  name: phoron loop
+  description: An energy-wreathed fish that glows with unstable phoron currents.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
-    state: plasma_loop
+    state: phoron_loop
   - type: Item
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
-    - id: SheetPlasma1
+    - id: SheetPhoron1
       amount: 1
 
 - type: entity

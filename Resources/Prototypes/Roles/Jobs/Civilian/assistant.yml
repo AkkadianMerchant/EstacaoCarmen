@@ -12,7 +12,7 @@
 - type: startingGear
   id: PassengerGear
   subGear:
-  - PassengerPlasmamanGear
+  - PassengerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorGrey
     back: ClothingBackpack
@@ -21,8 +21,8 @@
     ears: ClothingHeadsetGrey
 
 - type: startingGear
-  id: PassengerPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: PassengerPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitColorGrey
     head: ClothingHeadEnvirohelmColorGrey

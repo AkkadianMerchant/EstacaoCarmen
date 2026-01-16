@@ -526,7 +526,7 @@
     materialComposition:
       Steel: 150
       Glass: 37
-      Plasma: 37
+      Phoron: 37
   - type: ItemSwitch
     showLabel: true
     state: cautery

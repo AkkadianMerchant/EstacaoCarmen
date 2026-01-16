@@ -162,11 +162,11 @@ public sealed partial class SupermatterComponent : Component
     public float ThermalReleaseModifier = 0.2f;
 
     /// <summary>
-    ///     Multiplier on how much plasma is released during supermatter reactions
+    ///     Multiplier on how much phoron is released during supermatter reactions
     ///     Default is ~1/750
     /// </summary>
     [DataField]
-    public float PlasmaReleaseModifier = 0.001333f;
+    public float PhoronReleaseModifier = 0.001333f;
 
     /// <summary>
     ///     Multiplier on how much oxygen is released during supermatter reactions.
@@ -388,7 +388,7 @@ public sealed partial class SupermatterComponent : Component
         { Gas.Oxygen,        0f },
         { Gas.Nitrogen,      0f },
         { Gas.CarbonDioxide, 0f },
-        { Gas.Plasma,        0f },
+        { Gas.Phoron,        0f },
         { Gas.Tritium,       0f },
         { Gas.WaterVapor,    0f },
         { Gas.Frezon,        0f },
@@ -405,7 +405,7 @@ public sealed partial class SupermatterComponent : Component
         { Gas.Oxygen,        (1.5f, 1f,    1f)  },
         { Gas.Nitrogen,      (0f,   -1.5f, -1f) },
         { Gas.CarbonDioxide, (0f,   0.1f,  1f)  },
-        { Gas.Plasma,        (4f,   15f,   1f)  },
+        { Gas.Phoron,        (4f,   15f,   1f)  },
         { Gas.Tritium,       (30f,  10f,   1f)  },
         { Gas.WaterVapor,    (2f,   12f,   1f)  },
         { Gas.Frezon,        (3f,   -10f,  -1f) },

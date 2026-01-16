@@ -1,21 +1,21 @@
 - type: startingGear
   abstract: true
-  id: BasePlasmamanGear
+  id: BasePhoronmanGear
   requirements:
   - !type:CharacterSpeciesRequirement
-    species: [ Plasmaman ]
+    species: [ Phoronman ]
 
 - type: startingGear
   abstract: true
-  id: BasePlasmamanMaskGear
-  parent: BasePlasmamanGear
+  id: BasePhoronmanMaskGear
+  parent: BasePhoronmanGear
   equipment:
     mask: ClothingMaskBreath
-    pocket2: DoubleEmergencyPlasmaTankFilled
+    pocket2: DoubleEmergencyPhoronTankFilled
 
 - type: startingGear
   abstract: true
-  id: BasePlasmamanSecurityGear
-  parent: BasePlasmamanMaskGear
+  id: BasePhoronmanSecurityGear
+  parent: BasePhoronmanMaskGear
   equipment:
     mask: ClothingMaskGasSecurity

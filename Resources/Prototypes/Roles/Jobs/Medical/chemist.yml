@@ -29,7 +29,7 @@
 - type: startingGear
   id: ChemistGear
   subGear:
-  - ChemistPlasmamanGear
+  - ChemistPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitChemistry
     back: ClothingBackpackChemistry
@@ -38,8 +38,8 @@
     ears: ClothingHeadsetMedical
 
 - type: startingGear
-  id: ChemistPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: ChemistPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitChemist
     head: ClothingHeadEnvirohelmChemist

@@ -69,7 +69,7 @@
     - id: FishSlimefish
     - id: FishSludgefishPurple
     - id: FishLavaLoop
-    - id: FishPlasmaLoop
+    - id: FishPhoronLoop
 
 # Fish from water
 - type: entityTable
@@ -140,16 +140,16 @@
   id: LavaFishingLootTable
   table: !type:GroupSelector
     children:
-      # TODO: lava/plasma fish
+      # TODO: lava/phoron fish
       - !type:NestedSelector
         tableId: BasicFishingLootTable
 
-# Items from Plasma
+# Items from Phoron
 - type: entityTable
-  id: PlasmaFishingLootTable
+  id: PhoronFishingLootTable
   table: !type:GroupSelector
     children:
-    # TODO: lava/plasma fish
+    # TODO: lava/phoron fish
       - !type:NestedSelector
         tableId: BasicFishingLootTable
 

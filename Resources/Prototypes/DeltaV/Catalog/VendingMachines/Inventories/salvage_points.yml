@@ -106,7 +106,7 @@
     cost: 6400
   - id: OreBagOfHolding
     cost: 6600
- # - id: WeaponPlasmaCutter -- TODO: Port from goob
+ # - id: WeaponPhoronCutter -- TODO: Port from goob
  #   cost: 1700
   - id: SpaceCash1000
     cost: 1000

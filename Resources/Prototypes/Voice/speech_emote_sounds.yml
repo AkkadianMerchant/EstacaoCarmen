@@ -890,11 +890,11 @@
       variation: 0.125
 
 - type: emoteSounds
-  id: UnisexPlasmaman
+  id: UnisexPhoronman
   params:
     variation: 0.125
   sounds:
     Scream:
-      collection: PlasmamanUnisexScreams
+      collection: PhoronmanUnisexScreams
   sound:
     path: /Audio/Voice/Skeleton/skeleton_scream.ogg

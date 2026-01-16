@@ -76,14 +76,14 @@
         amount: 3
 
 - type: entity
-  id: CrateMaterialPlasma
-  parent: CratePlasma
-  name: solid plasma crate
-  description: 30 sheets of plasma.
+  id: CrateMaterialPhoron
+  parent: CratePhoron
+  name: solid phoron crate
+  description: 30 sheets of phoron.
   components:
   - type: StorageFill
     contents:
-      - id: SheetPlasma
+      - id: SheetPhoron
 
 - type: entity
   id: CrateMaterialCardboard

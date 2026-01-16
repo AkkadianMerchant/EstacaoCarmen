@@ -61,7 +61,7 @@
 - type: startingGear
   id: BlueshieldOfficerGear
   subGear:
-  - BlueshieldPlasmamanGear
+  - BlueshieldPhoronmanGear
   equipment:
     back: ClothingBackpackBlueshield
     jumpsuit: ClothingUniformJumpsuitBlueshieldOfficer
@@ -80,8 +80,8 @@
     #pocket2: DeathAcidifierImplanter
 
 - type: startingGear
-  id: BlueshieldPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: BlueshieldPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitBlueshield
     head: ClothingHeadEnvirohelmBlueshield

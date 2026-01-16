@@ -187,16 +187,16 @@
     laws: NTDefault
 
 - type: entity
-  id: PlasmaFloodCircuitBoard
+  id: PhoronFloodCircuitBoard
   parent: BaseElectronics
-  name: law board (Plasma Flood)
-  description: An electronics board containing the Plasma Flood lawset.
+  name: law board (Phoron Flood)
+  description: An electronics board containing the Phoron Flood lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
-    laws: PlasmaFlood
+    laws: PhoronFlood
 
 - type: entity
   id: MotherDroneCircuitBoard

@@ -12,7 +12,7 @@ public sealed class ProgressColorSystem : EntitySystem
 
     private bool _colorBlindFriendly;
 
-    private static readonly Color[] Plasma =
+    private static readonly Color[] Phoron =
     {
         new(240, 249, 33),
         new(248, 149, 64),
@@ -46,7 +46,7 @@ public sealed class ProgressColorSystem : EntitySystem
             return Color.FromHsv((hue, 1f, 0.75f, 1f));
         }
 
-        return InterpolateColorGaussian(Plasma, progress);
+        return InterpolateColorGaussian(Phoron, progress);
     }
 
     /// <summary>

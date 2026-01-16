@@ -20,7 +20,7 @@
 - type: startingGear
   id: MartialArtistGear
   subGear:
-  - MartialArtistPlasmamanGear
+  - MartialArtistPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformMartialGi
     belt: ClothingBeltMartialBlack
@@ -31,8 +31,8 @@
     gloves: ClothingHandsGlovesBoxingRed
 
 - type: startingGear
-  id: MartialArtistPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: MartialArtistPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitMartialGi
     head: ClothingHeadEnvirohelmMartialGi

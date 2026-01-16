@@ -7,21 +7,21 @@
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
   items:
     - EnvirosuitExtinguisherRefill
 
 - type: loadout
-  id: LoadoutSpeciesDoubleEmergencyPlasmaTank
+  id: LoadoutSpeciesDoubleEmergencyPhoronTank
   category: Species
   cost: 6
   canBeHeirloom: true
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
   items:
-    - DoubleEmergencyPlasmaTankFilled
+    - DoubleEmergencyPhoronTankFilled
 
 - type: loadout
   id: LoadoutSpeciesDrinkMilkCartonAndSyringe
@@ -31,7 +31,7 @@
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
   items:
     - DrinkMilkCarton
     - Syringe
@@ -50,7 +50,7 @@
       group: LoadoutGloves
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
   items:
     - ClothingHandsGlovesEnviroglovesColor
 
@@ -66,7 +66,7 @@
       group: LoadoutGloves
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
   items:
     - ClothingHandsGlovesEnviroglovesEvening
 
@@ -78,13 +78,13 @@
   cost: 0
   exclusive: true
   canBeHeirloom: true
-  guideEntry: Plasmaman
+  guideEntry: Phoronman
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -105,7 +105,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -125,7 +125,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -145,7 +145,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -164,7 +164,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -185,7 +185,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -206,7 +206,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -230,7 +230,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -250,7 +250,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -270,7 +270,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -289,7 +289,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -308,7 +308,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -328,7 +328,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -348,7 +348,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -368,7 +368,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -388,7 +388,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -408,7 +408,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -428,7 +428,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -448,7 +448,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -468,7 +468,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -488,7 +488,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -508,7 +508,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -528,7 +528,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -550,7 +550,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -571,7 +571,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -592,7 +592,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -612,7 +612,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -632,7 +632,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -653,7 +653,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -673,7 +673,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -693,7 +693,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -713,7 +713,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:

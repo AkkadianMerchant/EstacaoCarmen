@@ -17968,7 +17968,7 @@ entities:
       linearDamping: 0
       canCollide: False
     - type: InsideEntityStorage
-- proto: PlasmaWindoorSyndicateLocked
+- proto: PhoronWindoorSyndicateLocked
   entities:
   - uid: 1563
     components:
@@ -18638,7 +18638,7 @@ entities:
       linearDamping: 0
       canCollide: False
     - type: InsideEntityStorage
-- proto: ReinforcedPlasmaWindow
+- proto: ReinforcedPhoronWindow
   entities:
   - uid: 1675
     components:
@@ -18981,7 +18981,7 @@ entities:
     - type: Transform
       pos: 20.517282,-16.392462
       parent: 2
-- proto: SheetPlasma10
+- proto: SheetPhoron10
   entities:
   - uid: 1744
     components:
@@ -19436,7 +19436,7 @@ entities:
     - type: Transform
       pos: 17.5,8.5
       parent: 2
-- proto: TablePlasmaGlass
+- proto: TablePhoronGlass
   entities:
   - uid: 1804
     components:

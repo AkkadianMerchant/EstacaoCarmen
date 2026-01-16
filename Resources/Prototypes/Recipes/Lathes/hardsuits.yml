@@ -73,7 +73,7 @@
      ReinforcedGlass: 1500
      Plastic: 1500
      Uranium: 800
-     Plasma: 800
+     Phoron: 800
      Gold: 600
 
 - type: latheRecipe
@@ -84,10 +84,10 @@
   materials:
      Tungsten: 1000
      WebSilk: 3000
-     ReinforcedPlasmaGlass: 1500
+     ReinforcedPhoronGlass: 1500
      Plastic: 1500
      Uranium: 1000
-     Plasma: 1000
+     Phoron: 1000
      Gold: 800
 
 # TODO: IOU one "Unpainted" juggsuit sprite.
@@ -98,10 +98,10 @@
   completetime: 300
   materials: # GOOD LUCK.
      Tungsten: 3000
-     ReinforcedPlasmaGlass: 4500
+     ReinforcedPhoronGlass: 4500
      WebSilk: 3500
      Plastic: 3000
      Uranium: 1500
      Gold: 1500
-     Plasma: 1000
+     Phoron: 1000
      Diamond: 300

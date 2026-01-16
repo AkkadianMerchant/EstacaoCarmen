@@ -21,7 +21,7 @@
 - type: startingGear
   id: CargoTechGear
   subGear:
-  - CargoTechPlasmamanGear
+  - CargoTechPhoronmanGear
   equipment:
     head: ClothingHeadHatCargosoft
     jumpsuit: ClothingUniformJumpsuitCargo
@@ -32,8 +32,8 @@
     pocket1: AppraisalTool
 
 - type: startingGear
-  id: CargoTechPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: CargoTechPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitCargo
     head: ClothingHeadEnvirohelmCargo

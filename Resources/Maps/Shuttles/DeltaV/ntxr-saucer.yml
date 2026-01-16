@@ -1975,7 +1975,7 @@ entities:
     - type: Transform
       pos: -7.5,-1.5
       parent: 1
-- proto: PlasmaReinforcedWindowDirectional
+- proto: PhoronReinforcedWindowDirectional
   entities:
   - uid: 272
     components:
@@ -1994,7 +1994,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 7.5,-0.5
       parent: 1
-- proto: PlasmaWindow
+- proto: PhoronWindow
   entities:
   - uid: 275
     components:
@@ -2127,7 +2127,7 @@ entities:
     - type: Transform
       pos: -1.5,-4.5
       parent: 1
-- proto: ReinforcedPlasmaWindow
+- proto: ReinforcedPhoronWindow
   entities:
   - uid: 296
     components:
@@ -2234,7 +2234,7 @@ entities:
     - type: Transform
       pos: 9.5,1.5
       parent: 1
-- proto: ReinforcedPlasmaWindowDiagonal
+- proto: ReinforcedPhoronWindowDiagonal
   entities:
   - uid: 314
     components:
@@ -2832,7 +2832,7 @@ entities:
       parent: 1
     - type: WarpPoint
       location: NTXR Saucer
-- proto: WindoorSecurePlasma
+- proto: WindoorSecurePhoron
   entities:
   - uid: 413
     components:

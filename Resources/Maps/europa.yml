@@ -8271,7 +8271,7 @@ entities:
     - type: Transform
       pos: -8.5,-18.5
       parent: 1
-- proto: AtmosFixPlasmaMarker
+- proto: AtmosFixPhoronMarker
   entities:
   - uid: 5699
     components:
@@ -38374,7 +38374,7 @@ entities:
     - type: Transform
       pos: -6.5,4.5
       parent: 1
-- proto: CratePlasma
+- proto: CratePhoron
   entities:
   - uid: 12661
     components:
@@ -68528,7 +68528,7 @@ entities:
     - type: Transform
       pos: -9.5,-10.5
       parent: 1
-- proto: PlasmaCanister
+- proto: PhoronCanister
   entities:
   - uid: 2523
     components:
@@ -68560,7 +68560,7 @@ entities:
     - type: Transform
       pos: -11.5,-38.5
       parent: 1
-- proto: PlasmaReinforcedWindowDirectional
+- proto: PhoronReinforcedWindowDirectional
   entities:
   - uid: 1445
     components:
@@ -73190,7 +73190,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -53.5,-1.5
       parent: 1
-- proto: ReinforcedPlasmaWindow
+- proto: ReinforcedPhoronWindow
   entities:
   - uid: 85
     components:
@@ -75362,7 +75362,7 @@ entities:
     - type: Transform
       pos: -17.5,-41.5
       parent: 1
-- proto: SheetPlasma
+- proto: SheetPhoron
   entities:
   - uid: 1564
     components:
@@ -80943,7 +80943,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 10.5,19.5
       parent: 1
-- proto: TablePlasmaGlass
+- proto: TablePhoronGlass
   entities:
   - uid: 5243
     components:
@@ -99678,7 +99678,7 @@ entities:
     - type: Transform
       pos: -7.5,-21.5
       parent: 1
-- proto: WarningPlasma
+- proto: WarningPhoron
   entities:
   - uid: 5703
     components:

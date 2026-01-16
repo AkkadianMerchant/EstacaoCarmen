@@ -12025,7 +12025,7 @@ entities:
     - type: Transform
       pos: -11.434225,12.4398365
       parent: 4
-- proto: ReinforcedPlasmaWindow
+- proto: ReinforcedPhoronWindow
   entities:
   - uid: 1343
     components:

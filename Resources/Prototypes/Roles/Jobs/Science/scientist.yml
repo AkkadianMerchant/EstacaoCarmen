@@ -21,7 +21,7 @@
 - type: startingGear
   id: ScientistGear
   subGear:
-  - ScientistPlasmamanGear
+  - ScientistPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitScientist
     back: ClothingBackpackScience
@@ -32,8 +32,8 @@
     pocket1: BookPsionicsGuidebook
 
 - type: startingGear
-  id: ScientistPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: ScientistPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitScientist
     head: ClothingHeadEnvirohelmScientist

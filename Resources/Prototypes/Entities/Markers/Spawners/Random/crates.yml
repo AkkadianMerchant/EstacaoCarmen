@@ -58,7 +58,7 @@
         - CrateHydroponicsSeeds
       chance: 0.7
       rarePrototypes:
-        - CrateMaterialPlasma
+        - CrateMaterialPhoron
         - CrateHydroponicsSeedsExotic
       rareChance: 0.1
       offset: 0.0

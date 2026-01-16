@@ -94428,7 +94428,7 @@ entities:
     - type: Transform
       pos: 1.5,38.5
       parent: 2
-- proto: PlasmaCanister
+- proto: PhoronCanister
   entities:
   - uid: 13096
     components:
@@ -94511,7 +94511,7 @@ entities:
           hard: True
           restitution: 0
           friction: 0.4
-- proto: PlasmaReinforcedWindowDirectional
+- proto: PhoronReinforcedWindowDirectional
   entities:
   - uid: 12928
     components:
@@ -94618,7 +94618,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -14.5,48.5
       parent: 2
-- proto: PlasmaWindoorSecureCommandLocked
+- proto: PhoronWindoorSecureCommandLocked
   entities:
   - uid: 6164
     components:
@@ -94631,7 +94631,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 38.5,38.5
       parent: 2
-- proto: PlasmaWindoorSecureScienceLocked
+- proto: PhoronWindoorSecureScienceLocked
   entities:
   - uid: 13119
     components:
@@ -102206,7 +102206,7 @@ entities:
     - type: Transform
       pos: -20.5,74.5
       parent: 2
-- proto: ReinforcedPlasmaWindow
+- proto: ReinforcedPhoronWindow
   entities:
   - uid: 14440
     components:
@@ -104399,7 +104399,7 @@ entities:
     - type: Transform
       pos: 65.44522,-23.400772
       parent: 2
-- proto: SheetPlasma
+- proto: SheetPhoron
   entities:
   - uid: 14844
     components:
@@ -104416,7 +104416,7 @@ entities:
     - type: Transform
       pos: 17.857603,35.58248
       parent: 2
-- proto: SheetPlasma1
+- proto: SheetPhoron1
   entities:
   - uid: 2459
     components:
@@ -106344,14 +106344,14 @@ entities:
     - type: Transform
       pos: -13.5,77.5
       parent: 2
-- proto: SolarPanelPlasma
+- proto: SolarPanelPhoron
   entities:
   - uid: 14898
     components:
     - type: Transform
       pos: -1.5,81.5
       parent: 2
-- proto: SolarPanelPlasmaBroken
+- proto: SolarPanelPhoronBroken
   entities:
   - uid: 14944
     components:
@@ -110697,7 +110697,7 @@ entities:
     - type: Transform
       pos: -6.5,66.5
       parent: 2
-- proto: TablePlasmaGlass
+- proto: TablePhoronGlass
   entities:
   - uid: 15763
     components:
@@ -117941,7 +117941,7 @@ entities:
     - type: Transform
       pos: -9.5,-32.5
       parent: 2
-- proto: WallRockBasaltPlasma
+- proto: WallRockBasaltPhoron
   entities:
   - uid: 17030
     components:

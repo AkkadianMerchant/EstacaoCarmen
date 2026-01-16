@@ -54,11 +54,11 @@
   moodletOnEnd: HeirloomNeutral
 
 - type: moodEffect
-  id: PlasmamanIngestMilk
+  id: PhoronmanIngestMilk
   moodChange: 7
   timeout: 60
 
 - type: moodEffect
-  id: PlasmamanIngestPlasma
+  id: PhoronmanIngestPhoron
   moodChange: 14
   timeout: 60

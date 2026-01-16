@@ -2958,7 +2958,7 @@ entities:
       pos: 1.5,1.5
       parent: 2
     - type: Visibility
-- proto: PlasmaWindoorSecureCommandLocked
+- proto: PhoronWindoorSecureCommandLocked
   entities:
   - uid: 688
     components:
@@ -3021,7 +3021,7 @@ entities:
     - type: Transform
       pos: 2.5,1.5
       parent: 2
-- proto: PlasmaWindowDirectional
+- proto: PhoronWindowDirectional
   entities:
   - uid: 699
     components:

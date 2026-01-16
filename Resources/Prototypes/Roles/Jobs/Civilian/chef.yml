@@ -32,7 +32,7 @@
 - type: startingGear
   id: ChefGear
   subGear:
-  - ChefPlasmamanGear
+  - ChefPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitChef
     head: ClothingHeadHatChef
@@ -45,8 +45,8 @@
     belt: ClothingBeltChefFilled
 
 - type: startingGear
-  id: ChefPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: ChefPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitChef
     head: ClothingHeadEnvirohelmColorWhite

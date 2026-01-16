@@ -912,7 +912,7 @@ Entries:
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24097
 - author: Flareguy
   changes:
-    - message: Made lava & liquid plasma significantly less lethal.
+    - message: Made lava & liquid phoron significantly less lethal.
       type: Tweak
   id: 5715
   time: '2024-01-15T06:33:05.0000000+00:00'
@@ -959,7 +959,7 @@ Entries:
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24050
 - author: Boaz1111
   changes:
-    - message: Reinforced Glass and Reinforced Plasma Glass no longer bubble randomly
+    - message: Reinforced Glass and Reinforced Phoron Glass no longer bubble randomly
       type: Fix
   id: 5720
   time: '2024-01-16T03:43:18.0000000+00:00'
@@ -1082,7 +1082,7 @@ Entries:
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24193
 - author: Volotomite
   changes:
-    - message: Flippo can burn plasma now!
+    - message: Flippo can burn phoron now!
       type: Fix
   id: 5735
   time: '2024-01-18T00:28:32.0000000+00:00'
@@ -3489,7 +3489,7 @@ Entries:
 - author: Sphiral
   changes:
     - message: >-
-        NT has finally perfected methods for infusing Plasma/Uranium into Glass!
+        NT has finally perfected methods for infusing Phoron/Uranium into Glass!
         Windoors now have such varients! And Uranium Slim Windows exist!
       type: Add
   id: 6039
@@ -3602,7 +3602,7 @@ Entries:
   url: https://github.com/space-wizards/space-station-14/pull/25678
 - author: Cojoke-dot
   changes:
-    - message: E-sword now lights plasma fires
+    - message: E-sword now lights phoron fires
       type: Tweak
   id: 6051
   time: '2024-02-28T21:59:35.0000000+00:00'
@@ -3726,7 +3726,7 @@ Entries:
   url: https://github.com/space-wizards/space-station-14/pull/25719
 - author: MACMAN2003
   changes:
-    - message: There are now more ways to craft reinforced plasma/uranium glass.
+    - message: There are now more ways to craft reinforced phoron/uranium glass.
       type: Tweak
   id: 6066
   time: '2024-02-29T22:57:18.0000000+00:00'
@@ -3786,7 +3786,7 @@ Entries:
   url: https://github.com/space-wizards/space-station-14/pull/24899
 - author: Errant
   changes:
-    - message: Breathing tritium or plasma now displays a HUD alert.
+    - message: Breathing tritium or phoron now displays a HUD alert.
       type: Add
   id: 6074
   time: '2024-03-02T14:07:05.0000000+00:00'
@@ -10504,7 +10504,7 @@ Entries:
       message: >-
         Fixed the Supermatter engine math so that it actually respects the
         server's tickrate. It should now be SIGNIFICANTLY less likely to enter a
-        plasma fire death spiral. If it does catch fire, just make sure coolant
+        phoron fire death spiral. If it does catch fire, just make sure coolant
         is being pumped into the engine, and start blasting it with a fire
         extinguisher. 
   id: 6744
@@ -10748,11 +10748,11 @@ Entries:
   changes:
     - type: Add
       message: >-
-        The Plasmaman species has arrived! They need to breathe plasma to live,
+        The Phoronman species has arrived! They need to breathe phoron to live,
         and a special jumpsuit to prevent oxygen from igniting them. In
         exchange, they deal formidable unarmed Heat damage, are never hungry nor
         thirsty, and are immune to cold and radiation damage. Read more about
-        Plasmamen in their Guidebook entry.
+        Phoronmen in their Guidebook entry.
     - type: Tweak
       message: >-
         Internals are no longer toggled off if you take your helmet off but
@@ -10782,7 +10782,7 @@ Entries:
         New hairstyles have arrived, including all Goob LRP-original hairstyles,
         Pulato, new facial hair and more!
     - type: Add
-      message: 'Added epic IPC wings and Plasmaman wings. '
+      message: 'Added epic IPC wings and Phoronman wings. '
     - type: Add
       message: Added the Iron Jaw face marking.
     - type: Tweak
@@ -10867,11 +10867,11 @@ Entries:
   changes:
     - type: Tweak
       message: >-
-        All plasma tanks of all kinds now have the correct output pressure for
-        use as Plasmamen internals.
+        All phoron tanks of all kinds now have the correct output pressure for
+        use as Phoronmen internals.
     - type: Tweak
       message: >-
-        Plasmamen can no longer select the Temperature Tolerance trait which has
+        Phoronmen can no longer select the Temperature Tolerance trait which has
         no effect since they are already immune to Cold damage.
     - type: Fix
       message: Reduced the price of mechs on the uplink.
@@ -10902,7 +10902,7 @@ Entries:
     - type: Tweak
       message: You can now clone living people.
     - type: Tweak
-      message: Plasmamen no longer ignite while being cloned in a cloning pod.
+      message: Phoronmen no longer ignite while being cloned in a cloning pod.
   id: 6777
   time: '2025-01-28T18:16:31.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1679
@@ -10927,11 +10927,11 @@ Entries:
   changes:
     - type: Fix
       message: >-
-        Plasmamen will no longer be slowed down near-permanently after their
+        Phoronmen will no longer be slowed down near-permanently after their
         temperature changes.
     - type: Tweak
       message: >-
-        Slightly lowered the temperature threshold in which Plasmamen start
+        Slightly lowered the temperature threshold in which Phoronmen start
         getting Heat damage.
   id: 6779
   time: '2025-01-29T08:22:41.0000000+00:00'
@@ -10939,7 +10939,7 @@ Entries:
 - author: CaasGit
   changes:
     - type: Add
-      message: Solar panels can now be upgraded with plasma or uranium glass.
+      message: Solar panels can now be upgraded with phoron or uranium glass.
   id: 6780
   time: '2025-01-30T15:14:17.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1677
@@ -11441,7 +11441,7 @@ Entries:
   changes:
     - type: Add
       message: >-
-        Added 10 new Law Boards to the AI: Plasma Flood, Mother Drone, Druid,
+        Added 10 new Law Boards to the AI: Phoron Flood, Mother Drone, Druid,
         Cowboy, Chaplain, Clown, Janitor, Engineer, Research and Medical.
   id: 6822
   time: '2025-02-08T16:13:44.0000000+00:00'
@@ -11659,11 +11659,11 @@ Entries:
   changes:
     - type: Tweak
       message: >-
-        Plasmamen now have a slightly lower density and thus lower weight than
+        Phoronmen now have a slightly lower density and thus lower weight than
         the average species (this is a nerf).
     - type: Tweak
       message: >-
-        Plasmamen have their Slash resist increased from 15% to 20%, and their
+        Phoronmen have their Slash resist increased from 15% to 20%, and their
         Piercing resist increased from 25% to 40% (this is a buff).
     - type: Tweak
       message: >-
@@ -13389,7 +13389,7 @@ Entries:
 - author: Tirochora
   changes:
     - type: Tweak
-      message: Plasmaman envirosuits have translucent visors.
+      message: Phoronman envirosuits have translucent visors.
   id: 7003
   time: '2025-03-20T19:23:10.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1960
@@ -13668,7 +13668,7 @@ Entries:
 - author: Tirochora
   changes:
     - type: Fix
-      message: Plasmaman ancient envirohelms now properly display the sprite
+      message: Phoronman ancient envirohelms now properly display the sprite
     - type: Fix
       message: Basic colored envirohelms are no longer missing pixels on the sprite
   id: 7027
@@ -14645,9 +14645,9 @@ Entries:
 - author: EctoplasmIsGood
   changes:
     - type: Tweak
-      message: Plasma windows now take 50% less explosion damage
+      message: Phoron windows now take 50% less explosion damage
     - type: Tweak
-      message: Reinforced plasma windows now take 80% less explosion damage
+      message: Reinforced phoron windows now take 80% less explosion damage
   id: 7117
   time: '2025-04-09T03:48:54.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2195
@@ -16062,7 +16062,7 @@ Entries:
 - author: Diggy0
   changes:
     - type: Tweak
-      message: Plasmamen can now wear Modsuit helmets.
+      message: Phoronmen can now wear Modsuit helmets.
   id: 7242
   time: '2025-05-08T22:16:19.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2384

@@ -39,7 +39,7 @@ public sealed partial class AtmosAlarmEntryContainer : BoxContainer
         [Gas.Nitrogen] = "N₂",
         [Gas.NitrousOxide] = "N₂O",
         [Gas.Oxygen] = "O₂",
-        [Gas.Plasma] = "P",
+        [Gas.Phoron] = "P",
         [Gas.Tritium] = "T",
         [Gas.WaterVapor] = "H₂O",
     };

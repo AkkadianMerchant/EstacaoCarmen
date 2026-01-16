@@ -260,7 +260,7 @@
       - id: ClothingHandsGlovesColorYellowBudget
       - id: DoubleEmergencyOxygenTankFilled
       - id: DoubleEmergencyNitrogenTankFilled
-      - id: DoubleEmergencyPlasmaTankFilled
+      - id: DoubleEmergencyPhoronTankFilled
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -288,7 +288,7 @@
       - id: ClothingHandsGlovesCombat
       - id: DoubleEmergencyOxygenTankFilled
       - id: DoubleEmergencyNitrogenTankFilled
-      - id: DoubleEmergencyPlasmaTankFilled
+      - id: DoubleEmergencyPhoronTankFilled
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -303,7 +303,7 @@
     - id: ClothingHandsGlovesCombat
     - id: DoubleEmergencyOxygenTankFilled
     - id: DoubleEmergencyNitrogenTankFilled
-    - id: DoubleEmergencyPlasmaTankFilled
+    - id: DoubleEmergencyPhoronTankFilled
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -318,7 +318,7 @@
     - id: ClothingHandsGlovesCombat
     - id: DoubleEmergencyOxygenTankFilled
     - id: DoubleEmergencyNitrogenTankFilled
-    - id: DoubleEmergencyPlasmaTankFilled
+    - id: DoubleEmergencyPhoronTankFilled
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -346,7 +346,7 @@
       - id: ClothingHandsGlovesCombat
       - id: DoubleEmergencyOxygenTankFilled
       - id: DoubleEmergencyNitrogenTankFilled
-      - id: DoubleEmergencyPlasmaTankFilled
+      - id: DoubleEmergencyPhoronTankFilled
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle

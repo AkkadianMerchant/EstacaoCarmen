@@ -119,7 +119,7 @@
         - MailCarrier
     - !type:CharacterSpeciesRequirement
       species:
-        - Plasmaman
+        - Phoronman
   items:
     - ClothingUniformEnvirosuitMailCarrier
     - ClothingHeadEnvirohelmMailCarrier

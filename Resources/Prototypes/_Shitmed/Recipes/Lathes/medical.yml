@@ -6,7 +6,7 @@
   completetime: 2
   materials:
     Plastic: 200
-    Plasma: 200
+    Phoron: 200
 
 - type: latheRecipe
   id: MedicalCyberneticEyes
@@ -45,7 +45,7 @@
   materials:
     Steel: 600
     Glass: 150
-    Plasma: 150
+    Phoron: 150
 
 - type: latheRecipe
   id: OmnimedTool
@@ -56,4 +56,4 @@
     Glass: 300
     Gold: 300
     Silver: 300
-    Plasma: 300
+    Phoron: 300

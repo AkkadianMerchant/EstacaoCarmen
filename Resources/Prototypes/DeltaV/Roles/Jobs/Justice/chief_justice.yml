@@ -34,7 +34,7 @@
 - type: startingGear
   id: CJGear
   subGear:
-  - PassengerPlasmamanGear
+  - PassengerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefJustice
     back: ClothingBackpack # TODO- make Justice department bags

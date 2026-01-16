@@ -69,21 +69,21 @@
   group: market
 
 - type: cargoProduct
-  id: EmergencyPlasmaInternals
+  id: EmergencyPhoronInternals
   icon:
-    sprite: Objects/Tanks/plasmaman.rsi
+    sprite: Objects/Tanks/phoronman.rsi
     state: icon
-  product: CratePlasmaInternals
-  cost: 750 # Plasma is expensive!
+  product: CratePhoronInternals
+  cost: 750 # Phoron is expensive!
   category: cargoproduct-category-name-emergency
   group: market
 
 - type: cargoProduct
-  id: EmergencyPlasmamanEnvirosuit
+  id: EmergencyPhoronmanEnvirosuit
   icon:
     sprite: Clothing/Uniforms/Envirosuits/plain.rsi
     state: icon
-  product: CratePlasmamanEnvirosuit
+  product: CratePhoronmanEnvirosuit
   cost: 600
   category: cargoproduct-category-name-emergency
   group: market

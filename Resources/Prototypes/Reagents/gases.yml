@@ -33,7 +33,7 @@
           type: Vox
           shouldHave: false
         - !type:OrganType
-          type: Plasmaman
+          type: Phoronman
           shouldHave: false
         ratios:
           CarbonDioxide: 1.0
@@ -60,7 +60,7 @@
       - !type:HealthChange
         conditions:
         - !type:OrganType
-          type: Plasmaman
+          type: Phoronman
         scaleByQuantity: true
         ignoreResistances: true
         damage:
@@ -73,14 +73,14 @@
           - !type:ReagentThreshold
             min: 0.5
           - !type:OrganType
-            type: Plasmaman
+            type: Phoronman
         clear: true
         time: 5
 
 - type: reagent
-  id: Plasma
-  name: reagent-name-plasma
-  desc: reagent-desc-plasma
+  id: Phoron
+  name: reagent-name-phoron
+  desc: reagent-desc-phoron
   physicalDesc: reagent-physical-desc-gaseous
   flavor: bitter
   color: "#7e009e"
@@ -96,7 +96,7 @@
       - !type:HealthChange
         conditions:
         - !type:OrganType
-          type: Plasmaman
+          type: Phoronman
           shouldHave: false
         damage:
           types:
@@ -104,7 +104,7 @@
       - !type:AdjustReagent
         conditions:
         - !type:OrganType
-          type: Plasmaman
+          type: Phoronman
           shouldHave: false
         reagent: Inaprovaline
         amount: -2.0
@@ -113,7 +113,7 @@
       - !type:HealthChange
         conditions:
         - !type:OrganType
-          type: Plasmaman
+          type: Phoronman
           shouldHave: false
         scaleByQuantity: true
         ignoreResistances: true
@@ -126,7 +126,7 @@
         alertType: Toxins
         conditions:
           - !type:OrganType
-            type: Plasmaman
+            type: Phoronman
             shouldHave: false
           - !type:ReagentThreshold
             min: 1.5
@@ -136,20 +136,20 @@
         factor: 4
         conditions:
         - !type:OrganType
-          type: Plasmaman
+          type: Phoronman
       - !type:ModifyLungGas
         conditions:
         - !type:OrganType
-          type: Plasmaman
+          type: Phoronman
         ratios:
-          Nitrogen: 1.0 # Interesting exhale for plasmamen
-          Plasma: -1.0
+          Nitrogen: 1.0 # Interesting exhale for phoronmen
+          Phoron: -1.0
     Medicine:
       effects:
       - !type:HealthChange
         conditions:
         - !type:OrganType
-          type: Plasmaman
+          type: Phoronman
         damage:
           groups:
             Brute: -2
@@ -162,11 +162,11 @@
       - !type:ChemAddMoodlet
         conditions:
         - !type:OrganType
-          type: Plasmaman
+          type: Phoronman
         - !type:ReagentThreshold
-          reagent: Plasma
+          reagent: Phoron
           min: 4
-        moodPrototype: PlasmamanIngestPlasma
+        moodPrototype: PhoronmanIngestPhoron
   reactiveEffects:
     Flammable:
       methods: [ Touch ]

@@ -17,7 +17,7 @@ public sealed partial class ModifyEnvirosuitSpecial : JobSpecial
     public int Charges { get; private set; }
 
     [ValidatePrototypeId<SpeciesPrototype>]
-    private const string Species = "Plasmaman";
+    private const string Species = "Phoronman";
 
     private const string Slot = "jumpsuit";
 

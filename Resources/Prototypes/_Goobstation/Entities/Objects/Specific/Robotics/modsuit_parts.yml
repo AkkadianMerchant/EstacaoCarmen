@@ -98,7 +98,7 @@
   - type: PhysicalComposition
     materialComposition:
       Steel: 125
-      Plasma: 62
+      Phoron: 62
   - type: ContainerContainer
     containers:
       cell_slot: !type:Container
@@ -136,7 +136,7 @@
     materialComposition:
       Steel: 75
       Glass: 37
-      Plasma: 12
+      Phoron: 12
   - type: Tag
     tags:
     - ModsuitPart
@@ -158,5 +158,5 @@
     - ModsuitCore
   - type: PhysicalComposition
     materialComposition:
-      Plasma: 50
+      Phoron: 50
       Glass: 25

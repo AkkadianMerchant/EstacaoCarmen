@@ -49,7 +49,7 @@
   completetime: 2
   materials:
     Plastic: 200
-    Plasma: 150
+    Phoron: 150
 
 - type: latheRecipe
   id: ClothingHeadHelmetBasic
@@ -224,7 +224,7 @@
     Steel: 2000
     Uranium: 2000
     Plastic: 1000
-    Plasma: 500
+    Phoron: 500
     Glass: 500
 
 - type: latheRecipe
@@ -245,7 +245,7 @@
     Tungsten: 300
     Gold: 300
     Bluespace: 300
-    Plasma: 300
+    Phoron: 300
     Diamond: 100
 
 - type: latheRecipe
@@ -256,7 +256,7 @@
     Tungsten: 300
     Gold: 300
     Bluespace: 300
-    Plasma: 300
+    Phoron: 300
     Diamond: 100
 
 - type: latheRecipe
@@ -267,7 +267,7 @@
     Tungsten: 600
     Gold: 600
     Bluespace: 600
-    Plasma: 600
+    Phoron: 600
     Diamond: 200
 
 - type: latheRecipe
@@ -534,7 +534,7 @@
   materials:
     Plastic: 20
     Steel: 5
-    Plasma: 5
+    Phoron: 5
 
 - type: latheRecipe
   id: ShellShotgunPractice
@@ -1250,7 +1250,7 @@
     Plastic: 240
     Steel: 160
     Glass: 80
-    Plasma: 160
+    Phoron: 160
     Silver: 80
 
 - type: latheRecipe
@@ -1301,7 +1301,7 @@
   materials:
     Steel: 80
     Plastic: 80
-    Plasma: 80
+    Phoron: 80
 
 - type: latheRecipe
   parent: BaseAmmoRecipe

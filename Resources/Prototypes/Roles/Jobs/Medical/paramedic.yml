@@ -32,7 +32,7 @@
 - type: startingGear
   id: ParamedicGear
   subGear:
-  - ParamedicPlasmamanGear
+  - ParamedicPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitParamedic
     back: ClothingBackpackMedical
@@ -49,8 +49,8 @@
     - Portafib
 
 - type: startingGear
-  id: ParamedicPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: ParamedicPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitParamedic
     head: ClothingHeadEnvirohelmParamedic

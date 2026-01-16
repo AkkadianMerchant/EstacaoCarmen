@@ -1909,7 +1909,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: PlasmaWindow
+- proto: PhoronWindow
   entities:
   - uid: 262
     components:
@@ -2023,7 +2023,7 @@ entities:
     - type: Transform
       pos: -1.5,-4.5
       parent: 1
-- proto: PlasmaWindowDiagonal
+- proto: PhoronWindowDiagonal
   entities:
   - uid: 281
     components:
@@ -2323,7 +2323,7 @@ entities:
           - 104
           - 105
           - 106
-- proto: TablePlasmaGlass
+- proto: TablePhoronGlass
   entities:
   - uid: 317
     components:

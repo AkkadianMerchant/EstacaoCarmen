@@ -31,7 +31,7 @@
 - type: startingGear
   id: DoctorGear
   subGear:
-  - DoctorPlasmamanGear
+  - DoctorPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMedicalDoctor
     back: ClothingBackpackMedical
@@ -40,8 +40,8 @@
     ears: ClothingHeadsetMedical
 
 - type: startingGear
-  id: DoctorPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: DoctorPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitMedicalDoctor
     head: ClothingHeadEnvirohelmMedicalDoctor

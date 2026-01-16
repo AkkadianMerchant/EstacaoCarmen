@@ -13,7 +13,7 @@
         Manipulator: 1
       stackRequirements:
         Cable: 1
-        PlasmaGlass: 5
+        PhoronGlass: 5
       tagRequirements:
         BorgArm:
           amount: 3

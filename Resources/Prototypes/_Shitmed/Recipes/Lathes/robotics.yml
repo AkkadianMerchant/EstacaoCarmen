@@ -15,7 +15,7 @@
   completetime: 2
   materials:
     Steel: 250
-    Plasma: 100
+    Phoron: 100
     Plastic: 100
 
 - type: latheRecipe
@@ -27,7 +27,7 @@
     Steel: 3000
     Gold: 500
     Plastic: 500
-    Plasma: 500
+    Phoron: 500
 
 # Generic
 

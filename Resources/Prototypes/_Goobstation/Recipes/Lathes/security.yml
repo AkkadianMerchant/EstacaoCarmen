@@ -68,7 +68,7 @@
   materials:
     Steel: 200
     Glass: 400
-    Plasma: 200
+    Phoron: 200
 
 - type: latheRecipe
   id: CartridgePuncturase
@@ -77,7 +77,7 @@
   materials:
     Steel: 200
     Glass: 400
-    Plasma: 200
+    Phoron: 200
 
 - type: latheRecipe
   id: CartridgeTirizene
@@ -86,7 +86,7 @@
   materials:
     Steel: 200
     Glass: 400
-    Plasma: 200
+    Phoron: 200
 
 - type: latheRecipe
   id: SecHypo
@@ -107,7 +107,7 @@
   materials:
     Steel: 2800
     Plastic: 1000
-    Plasma: 750
+    Phoron: 750
     Glass: 500
 
 - type: latheRecipe
@@ -118,7 +118,7 @@
   materials:
     Steel: 1650
     Plastic: 300
-    Plasma: 250
+    Phoron: 250
     Glass: 200
 
 - type: latheRecipe
@@ -129,7 +129,7 @@
   materials:
     Steel: 1200
     Plastic: 200
-    Plasma: 150
+    Phoron: 150
     Glass: 50
 
 - type: latheRecipe
@@ -158,7 +158,7 @@
   materials:
     Steel: 1500
     Plastic: 800
-    Plasma: 300
+    Phoron: 300
 
 - type: latheRecipe
   id: WeaponMechCombatDisabler

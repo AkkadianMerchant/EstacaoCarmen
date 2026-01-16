@@ -52,7 +52,7 @@
 - type: startingGear
   id: NanotrasenRepresentativeGear
   subGear:
-  - NanotrasenRepresentativePlasmamanGear
+  - NanotrasenRepresentativePhoronmanGear
   equipment:
     shoes: ClothingShoesColorBlack
     id: CentcomPDA
@@ -61,8 +61,8 @@
     pocket1: UniqueNanorepLockerTeleporter
 
 - type: startingGear
-  id: NanotrasenRepresentativePlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: NanotrasenRepresentativePhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitNanotrasenRepresentative
     head: ClothingHeadEnvirohelmNanotrasenRepresentative

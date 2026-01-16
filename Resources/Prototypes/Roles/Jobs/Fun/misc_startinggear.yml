@@ -19,7 +19,7 @@
   id: SyndicateOperativeGearCivilian
   subGear:
   - BoxSurvivalClown
-  - SyndicateOperativePlasmamanGear
+  - SyndicateOperativePhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
     back: ClothingBackpackDuffelSyndicate
@@ -32,7 +32,7 @@
 - type: startingGear
   id: SyndicateFootsoldierGearRuin
   subGear:
-  - SyndicateOperativePlasmamanGear
+  - SyndicateOperativePhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitOperative
     head: ClothingHeadHelmetSwatSyndicate
@@ -74,7 +74,7 @@
 - type: startingGear
   id: NanotrasenParamilitaryGear
   subGear:
-  - SecurityOfficerPlasmamanGear
+  - SecurityOfficerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSec
     back: ClothingBackpackSecurity
@@ -108,7 +108,7 @@
 - type: startingGear
   id: DeathMatchGear
   subGear:
-  - DeathMatchPlasmamanGear
+  - DeathMatchPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorWhite
     shoes: ClothingShoesBootsJack
@@ -118,8 +118,8 @@
     - WeaponMeleeToolboxRobust
 
 - type: startingGear
-  id: DeathMatchPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: DeathMatchPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitColorWhite
     head: ClothingHeadEnvirohelmColorWhite
@@ -183,7 +183,7 @@
   id: BananaClown
   subGear:
   - BoxSurvivalClown
-  - ClownPlasmamanGear # TODO: Banana clown plasmaman starting gear
+  - ClownPhoronmanGear # TODO: Banana clown phoronman starting gear
   equipment:
     id: VisitorPDA
     back: ClothingBackpackClown
@@ -197,7 +197,7 @@
 - type: startingGear
   id: LimitedPassengerGear
   subGear:
-  - PassengerPlasmamanGear
+  - PassengerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorGrey
     shoes: ClothingShoesColorBlack

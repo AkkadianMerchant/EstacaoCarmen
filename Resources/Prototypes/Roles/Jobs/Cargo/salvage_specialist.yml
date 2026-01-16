@@ -24,7 +24,7 @@
 - type: startingGear
   id: SalvageSpecialistGear
   subGear:
-  - SalvageSpecialistPlasmamanGear
+  - SalvageSpecialistPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
     back: ClothingBackpackSalvage
@@ -34,8 +34,8 @@
     pocket1: MiningVoucher
 
 - type: startingGear
-  id: SalvageSpecialistPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: SalvageSpecialistPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitSalvage
     head: ClothingHeadEnvirohelmSalvage

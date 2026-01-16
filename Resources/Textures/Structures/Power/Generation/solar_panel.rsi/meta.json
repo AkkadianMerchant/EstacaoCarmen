@@ -15,7 +15,7 @@
 			"name": "solar_panel_glass_broken"
 		},
 		{
-			"name": "solar_panel_plasma_broken"
+			"name": "solar_panel_phoron_broken"
 		},
 		{
 			"name": "solar_panel_uranium_broken"
@@ -24,7 +24,7 @@
 			"name": "solar_panel_glass"
 		},
 		{
-			"name": "solar_panel_plasma"
+			"name": "solar_panel_phoron"
 		},
 		{
 			"name": "solar_panel_uranium"
@@ -45,7 +45,7 @@
 			"name": "solar_panel_glass_uncabled"
 		},
 		{
-			"name": "solar_panel_plasma_uncabled"
+			"name": "solar_panel_phoron_uncabled"
 		},
 		{
 			"name": "solar_panel_uranium_uncabled"

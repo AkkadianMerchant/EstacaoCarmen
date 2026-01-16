@@ -20,10 +20,10 @@
   maxCount: 30
 
 - type: stack
-  id: PlasmaOreUnprocessed
+  id: PhoronOreUnprocessed
   name: native phoron
-  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: plasma }
-  spawn: PlasmaOre1Unprocessed
+  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: phoron }
+  spawn: PhoronOre1Unprocessed
   maxCount: 30
 
 - type: stack

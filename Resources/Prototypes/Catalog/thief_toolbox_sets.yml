@@ -92,7 +92,7 @@
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
-      - Plasmaman
+      - Phoronman
   content:
   - EncryptionKeyStationMaster
   - CyberPen
@@ -102,21 +102,21 @@
   #- todo Chameleon Stamp
 
 - type: thiefBackpackSet
-  id: CommunicatorSetPlasmaman
-  name: thief-backpack-category-communicator-plasmaman-name
-  description: thief-backpack-category-communicator-plasmaman-description
+  id: CommunicatorSetPhoronman
+  name: thief-backpack-category-communicator-phoronman-name
+  description: thief-backpack-category-communicator-phoronman-description
   sprite:
     sprite: Objects/Tools/spy_device.rsi
     state: icon
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
-      - Plasmaman
+      - Phoronman
   content:
   - EncryptionKeyStationMaster
   - CyberPen
   - SpyCrewMonitor
-  - BriefcaseThiefBribingBundlePlasmamanFilled
+  - BriefcaseThiefBribingBundlePhoronmanFilled
   - ClothingMaskGasVoiceChameleon
 
 - type: thiefBackpackSet

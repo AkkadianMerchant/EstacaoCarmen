@@ -46,7 +46,7 @@
 - type: startingGear
   id: LibrarianGear
   subGear:
-  - LibrarianPlasmamanGear
+  - LibrarianPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitLibrarian
     back: ClothingBackpack
@@ -61,8 +61,8 @@
     - BookRandom
 
 - type: startingGear
-  id: LibrarianPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: LibrarianPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitAncientVoid
     head: ClothingHeadEnvirohelmAncientVoid

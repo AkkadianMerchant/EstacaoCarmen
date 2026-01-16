@@ -227,9 +227,9 @@
   text: phrase-plasteel
 
 - type: quickPhrase
-  id: PlasmaPhrase
+  id: PhoronPhrase
   parent: BaseMaterialPhrase
-  text: phrase-plasma
+  text: phrase-phoron
 
 - type: quickPhrase
   id: UraniumPhrase

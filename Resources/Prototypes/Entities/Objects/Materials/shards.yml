@@ -162,9 +162,9 @@
 
 - type: entity
   parent: ShardBase
-  id: ShardGlassPlasma
-  name: plasma glass shard
-  description: A small piece of plasma glass.
+  id: ShardGlassPhoron
+  name: phoron glass shard
+  description: A small piece of phoron glass.
   components:
   - type: Sprite
     color: "#FF72E7"
@@ -175,7 +175,7 @@
   - type: ToolRefinable
     refineResult:
       - id: SheetGlass1
-      - id: SheetPlasma1
+      - id: SheetPhoron1
   - type: EmbedPassiveDamage
     damage:
       types:
@@ -186,7 +186,7 @@
         Piercing: 6.5
   - type: Tag
     tags:
-      - PlasmaGlassShard
+      - PhoronGlassShard
       - Trash
   - type: Extractable
     grindableSolutionName: shardpglass
@@ -196,10 +196,10 @@
         reagents:
         - ReagentId: Silicon
           Quantity: 5
-        - ReagentId: Plasma
+        - ReagentId: Phoron
           Quantity: 5
   - type: Construction
-    graph: PlasmaShivConstruct
+    graph: PhoronShivConstruct
     node: start
 
 - type: entity

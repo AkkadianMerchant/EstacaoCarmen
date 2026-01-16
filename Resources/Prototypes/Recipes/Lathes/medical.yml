@@ -235,7 +235,7 @@
     Glass: 300
     Silver: 100
     Gold: 100
-    Plasma: 200
+    Phoron: 200
 
 - type: latheRecipe
   id: EnvirosuitExtinguisherRefill
@@ -243,7 +243,7 @@
   completetime: 3
   materials:
     Steel: 200
-    Plasma: 50
+    Phoron: 50
 
 - type: latheRecipe
   id: SyringeCase

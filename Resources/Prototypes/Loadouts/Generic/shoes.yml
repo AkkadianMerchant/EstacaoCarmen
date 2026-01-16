@@ -251,7 +251,7 @@
     - !type:CharacterSpeciesRequirement # Due to a visual bug with envirosuits and heels they are disabled for now.
       inverted: true
       species:
-        - Plasmaman
+        - Phoronman
   items:
     - ClothingShoesHighheelBoots
 # Socks
@@ -302,7 +302,7 @@
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
-        - Plasmaman
+        - Phoronman
   items:
     - ClothingShoesHighHeels
 
@@ -319,7 +319,7 @@
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
-        - Plasmaman
+        - Phoronman
   items:
     - ClothingShoesHighHeelsLong
 

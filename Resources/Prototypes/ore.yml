@@ -41,8 +41,8 @@
 
 # Low yields
 - type: ore
-  id: OrePlasma
-  oreEntity: PlasmaOre1Unprocessed
+  id: OrePhoron
+  oreEntity: PhoronOre1Unprocessed
   minOreYield: 1
   maxOreYield: 2
 
@@ -111,7 +111,7 @@
     OreCoal: 10
     OreSpaceQuartz: 8
     OreGold: 2
-    OrePlasma: 4
+    OrePhoron: 4
     OreSilver: 1
     OreUranium: 1
     OreBananium: 0.5
@@ -129,7 +129,7 @@
     OreCoal: 1.6
     OreSpaceQuartz: 0.8
     OreGold: 10
-    OrePlasma: 0.32
+    OrePhoron: 0.32
     OreSilver: 0.8
     OreUranium: 0.8
     OreBananium: 0.8

@@ -48,9 +48,9 @@
       - id: SyndieHandyFlag
 
 - type: entity
-  id: BriefcaseSyndieLobbyingBundlePlasmamanFilled
+  id: BriefcaseSyndieLobbyingBundlePhoronmanFilled
   parent: BriefcaseSyndie
-  suffix: Syndicate, Spesos, Plasmaman
+  suffix: Syndicate, Spesos, Phoronman
   components:
   - type: StorageFill
     contents:
@@ -88,9 +88,9 @@
       - id: ClothingHandsGlovesColorBlack
 
 - type: entity
-  id: BriefcaseThiefBribingBundlePlasmamanFilled
+  id: BriefcaseThiefBribingBundlePhoronmanFilled
   parent: BriefcaseSyndie
-  suffix: Thief, Spesos, Plasmaman
+  suffix: Thief, Spesos, Phoronman
   components:
   - type: StorageFill
     contents:

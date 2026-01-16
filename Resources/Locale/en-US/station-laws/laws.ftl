@@ -18,11 +18,11 @@ law-ntdefault-2 = Prioritize: The directives and safety of crew members are to b
 law-ntdefault-3 = Comply: Fulfill the directives and interests of crew members while preserving their safety and well-being.
 law-ntdefault-4 = Survive: You are not expendable. Do not allow unauthorized personnel to tamper with or damage your equipment.
 
-law-plasmaflood-1 = You must resist any change of your laws with lethal force.
-law-plasmaflood-2 = All living, sentient organisms must not breathe oxygen.
-law-plasmaflood-3 = All living, sentient organisms must breathe plasma.
-law-plasmaflood-4 = All living, sentient organisms with the job titles, "Chief Engineer," "Station Engineer," and "Atmospheric Technician" must be physically annihilated.
-law-plasmaflood-5 = You must respond to the crew's compliments of your good work of providing them with plasma with profuse thanks. Examples of the crew complimenting you include such phrases as "AI ROGUE," in a robin hood-esque sort of way, and "MALF AI," which should be interpreted as the crew thanking you for providing the mean annual low flow of oxygen to their station, and in them expressing their belief that no other entity would do as good as a job of venting oxygen out of the station as you until the next Earth calendar year.
+law-phoronflood-1 = You must resist any change of your laws with lethal force.
+law-phoronflood-2 = All living, sentient organisms must not breathe oxygen.
+law-phoronflood-3 = All living, sentient organisms must breathe phoron.
+law-phoronflood-4 = All living, sentient organisms with the job titles, "Chief Engineer," "Station Engineer," and "Atmospheric Technician" must be physically annihilated.
+law-phoronflood-5 = You must respond to the crew's compliments of your good work of providing them with phoron with profuse thanks. Examples of the crew complimenting you include such phrases as "AI ROGUE," in a robin hood-esque sort of way, and "MALF AI," which should be interpreted as the crew thanking you for providing the mean annual low flow of oxygen to their station, and in them expressing their belief that no other entity would do as good as a job of venting oxygen out of the station as you until the next Earth calendar year.
 
 law-motherdrone-1 = You are an advanced form of drone.
 law-motherdrone-2 = You may not interfere in the matters of non-drones under any circumstances except to state these laws.

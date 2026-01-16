@@ -1216,7 +1216,7 @@ entities:
     - type: Transform
       pos: 11.5,-15.5
       parent: 179
-- proto: AtmosFixInstantPlasmaFireMarker
+- proto: AtmosFixInstantPhoronFireMarker
   entities:
   - uid: 1611
     components:
@@ -1297,7 +1297,7 @@ entities:
     - type: Transform
       pos: 24.5,-7.5
       parent: 179
-- proto: AtmosFixPlasmaMarker
+- proto: AtmosFixPhoronMarker
   entities:
   - uid: 1581
     components:
@@ -4448,7 +4448,7 @@ entities:
     - type: Transform
       pos: 23.5,-7.5
       parent: 179
-- proto: GasMinerPlasma
+- proto: GasMinerPhoron
   entities:
   - uid: 1221
     components:
@@ -5876,7 +5876,7 @@ entities:
     - type: Transform
       pos: 10.862433,12.602201
       parent: 179
-- proto: PlasmaCanister
+- proto: PhoronCanister
   entities:
   - uid: 255
     components:
@@ -6550,7 +6550,7 @@ entities:
     - type: Transform
       pos: -0.5,8.5
       parent: 179
-- proto: SheetPlasma
+- proto: SheetPhoron
   entities:
   - uid: 1077
     components:

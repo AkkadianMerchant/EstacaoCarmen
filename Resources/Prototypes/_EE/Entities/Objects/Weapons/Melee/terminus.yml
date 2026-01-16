@@ -16,7 +16,7 @@
   - type: UseDelay
     delay: 0.9
   - type: Gun
-    soundGunshot: /Audio/Weapons/plasma_cutter.ogg
+    soundGunshot: /Audio/Weapons/phoron_cutter.ogg
     fireRate: 1
     useKey: false
   - type: RechargeBasicEntityAmmo

@@ -17,7 +17,7 @@
   id: CBURNGear
   subGear:
   - BoxSurvivalEngineering
-  - CBURNPlasmamanGear
+  - CBURNPhoronmanGear
   - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorBrown
@@ -41,8 +41,8 @@
     - PillAmbuzol
 
 - type: startingGear
-  id: CBURNPlasmamanGear
-  parent: BasePlasmamanGear
+  id: CBURNPhoronmanGear
+  parent: BasePhoronmanGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitColorLightBrown
     head: ClothingHeadEnvirohelmColorLightBrown

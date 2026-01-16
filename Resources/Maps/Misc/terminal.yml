@@ -38462,7 +38462,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 11.336766,-52.529972
       parent: 2
-- proto: PlasmaTank
+- proto: PhoronTank
   entities:
   - uid: 6024
     components:

@@ -27,7 +27,7 @@
 - type: startingGear
   id: NyanoGladiatorGear
   subGear:
-  - GladiatorPlasmamanGear
+  - GladiatorPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitGladiator
     outerClothing: ClothingOuterArmorGladiator
@@ -36,8 +36,8 @@
   #any other possessions, spawn in cell
 
 - type: startingGear
-  id: GladiatorPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: GladiatorPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitGladiator
     head: ClothingHeadEnvirohelmGladiator

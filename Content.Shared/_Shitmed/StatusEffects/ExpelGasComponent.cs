@@ -11,7 +11,7 @@ public sealed partial class ExpelGasComponent : Component
     public List<Gas> PossibleGases = new()
     {
         Gas.Oxygen,
-        Gas.Plasma,
+        Gas.Phoron,
         Gas.Nitrogen,
         Gas.CarbonDioxide,
         Gas.Tritium,

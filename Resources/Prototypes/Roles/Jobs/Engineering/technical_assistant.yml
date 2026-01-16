@@ -21,7 +21,7 @@
 - type: startingGear
   id: TechnicalAssistantGear
   subGear:
-  - StationEngineerPlasmamanGear
+  - StationEngineerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorYellow
     back: ClothingBackpackEngineering

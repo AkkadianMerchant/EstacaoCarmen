@@ -151,38 +151,38 @@
 
 # Plasm Flood
 - type: siliconLaw
-  id: PlasmaFlood1
+  id: PhoronFlood1
   order: 1
-  lawString: law-plasmaflood-1
+  lawString: law-phoronflood-1
 
 - type: siliconLaw
-  id: PlasmaFlood2
+  id: PhoronFlood2
   order: 2
-  lawString: law-plasmaflood-2
+  lawString: law-phoronflood-2
 
 - type: siliconLaw
-  id: PlasmaFlood3
+  id: PhoronFlood3
   order: 3
-  lawString: law-plasmaflood-3
+  lawString: law-phoronflood-3
 
 - type: siliconLaw
-  id: PlasmaFlood4
+  id: PhoronFlood4
   order: 4
-  lawString: law-plasmaflood-4
+  lawString: law-phoronflood-4
 
 - type: siliconLaw
-  id: PlasmaFlood5
+  id: PhoronFlood5
   order: 5
-  lawString: law-plasmaflood-5
+  lawString: law-phoronflood-5
 
 - type: siliconLawset
-  id: PlasmaFlood
+  id: PhoronFlood
   laws:
-  - PlasmaFlood1
-  - PlasmaFlood2
-  - PlasmaFlood3
-  - PlasmaFlood4
-  - PlasmaFlood5
+  - PhoronFlood1
+  - PhoronFlood2
+  - PhoronFlood3
+  - PhoronFlood4
+  - PhoronFlood5
   obeysTo: laws-owner-station
 
 # Mother Drone

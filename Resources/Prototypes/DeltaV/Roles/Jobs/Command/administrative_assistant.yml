@@ -48,7 +48,7 @@
 - type: startingGear
   id: AdminAssistantGear
   subGear:
-  - AdminAssistantPlasmamanGear
+  - AdminAssistantPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitAdminAssistant
     id: AdminAssistantPDA
@@ -56,8 +56,8 @@
     shoes: ClothingShoesLeather
 
 - type: startingGear
-  id: AdminAssistantPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: AdminAssistantPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitAdminAssistant
     head: ClothingHeadEnvirohelmAdminAssistant

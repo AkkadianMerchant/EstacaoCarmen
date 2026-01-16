@@ -84,11 +84,11 @@ mood-effect-EthanolBenefit =
 mood-effect-SpaceDrugsBenefit =
     Woaaaah, such pretty colors maaaaan. It's like I can hear color and taste sound maaan.
 
-# Plasmaman
-mood-effect-PlasmamanIngestPlasma =
-    My body is rejuvenated by the fresh plasma coursing through my body.
+# Phoronman
+mood-effect-PhoronmanIngestPhoron =
+    My body is rejuvenated by the fresh phoron coursing through my body.
 
-mood-effect-PlasmamanIngestMilk =
+mood-effect-PhoronmanIngestMilk =
     I can feel the milk's calcium repairing my bones. This is dairy-lightful!
 
 # Floor Juice

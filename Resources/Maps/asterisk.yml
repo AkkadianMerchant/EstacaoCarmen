@@ -53631,7 +53631,7 @@ entities:
     - type: Physics
       angularDamping: 0
       linearDamping: 0
-- proto: PlasmaCanister
+- proto: PhoronCanister
   entities:
   - uid: 8117
     components:
@@ -53648,7 +53648,7 @@ entities:
     - type: Transform
       pos: 26.5,14.5
       parent: 2
-- proto: PlasmaTankFilled
+- proto: PhoronTankFilled
   entities:
   - uid: 8120
     components:
@@ -57933,7 +57933,7 @@ entities:
     - type: Transform
       pos: 61.5,-5.5
       parent: 2
-- proto: ReinforcedPlasmaWindow
+- proto: ReinforcedPhoronWindow
   entities:
   - uid: 8807
     components:
@@ -59292,7 +59292,7 @@ entities:
     - type: Transform
       pos: 14.5,-10.5
       parent: 2
-- proto: SheetPlasma
+- proto: SheetPhoron
   entities:
   - uid: 9069
     components:
@@ -63966,7 +63966,7 @@ entities:
     - type: Transform
       pos: 6.5,-1.5
       parent: 2
-- proto: TablePlasmaGlass
+- proto: TablePhoronGlass
   entities:
   - uid: 9734
     components:

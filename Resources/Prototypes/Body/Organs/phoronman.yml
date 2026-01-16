@@ -1,52 +1,52 @@
 - type: entity
-  id: BasePlasmamanOrgan
+  id: BasePhoronmanOrgan
   abstract: true
   components:
   - type: Sprite
-    sprite: Mobs/Species/Plasmaman/organs.rsi
+    sprite: Mobs/Species/Phoronman/organs.rsi
   - type: SolutionContainerManager
     solutions:
       organ:
         reagents:
         - ReagentId: Nutriment
           Quantity: 5 # Not very nutritious
-        - ReagentId: Plasma
+        - ReagentId: Phoron
           Quantity: 2.5
       food:
         maxVol: 5
         reagents:
-        - ReagentId: Plasma
+        - ReagentId: Phoron
           Quantity: 5
   - type: Extractable
     grindableSolutionName: food
     juiceSolution:
       reagents:
-      - ReagentId: Plasma
+      - ReagentId: Phoron
         Quantity: 5
   - type: FlavorProfile
     flavors:
-      - plasma
+      - phoron
 
 - type: entity
-  id: OrganPlasmamanLungs
-  parent: [ BasePlasmamanOrgan, OrganHumanLungs ]
-  name: plasmaman lungs
-  description: The lungs yearn for the plasma. Only plasma gas can satiate these lungs, and oxygen is lethally toxic.
+  id: OrganPhoronmanLungs
+  parent: [ BasePhoronmanOrgan, OrganHumanLungs ]
+  name: phoronman lungs
+  description: The lungs yearn for the phoron. Only phoron gas can satiate these lungs, and oxygen is lethally toxic.
   components:
   - type: Sprite
     layers:
     - state: lungs
   - type: Metabolizer
-    metabolizerTypes: [ Plasmaman ]
+    metabolizerTypes: [ Phoronman ]
   - type: Lung
-    alert: LowPlasma
+    alert: LowPhoron
   - type: SolutionContainerManager
     solutions:
       organ:
         reagents:
         - ReagentId: Nutriment
           Quantity: 5
-        - ReagentId: Plasma
+        - ReagentId: Phoron
           Quantity: 2.5
       Lung:
         maxVol: 100.0
@@ -54,84 +54,84 @@
       food:
         maxVol: 5
         reagents:
-        - ReagentId: Plasma
+        - ReagentId: Phoron
           Quantity: 5
 
 - type: entity
-  id: OrganPlasmamanStomach
-  parent: [ BasePlasmamanOrgan, OrganHumanStomach ]
-  name: plasmaman stomach
-  description: Why do plasmamen have stomachs if they don't need to eat?
+  id: OrganPhoronmanStomach
+  parent: [ BasePhoronmanOrgan, OrganHumanStomach ]
+  name: phoronman stomach
+  description: Why do phoronmen have stomachs if they don't need to eat?
   components:
   - type: Metabolizer
-    metabolizerTypes: [ Plasmaman ]
+    metabolizerTypes: [ Phoronman ]
   - type: SolutionContainerManager
     solutions:
       organ:
         reagents:
         - ReagentId: Nutriment
           Quantity: 8
-        - ReagentId: Plasma
+        - ReagentId: Phoron
           Quantity: 4
       stomach:
         maxVol: 50
       food:
         maxVol: 8
         reagents:
-        - ReagentId: Plasma
+        - ReagentId: Phoron
           Quantity: 8
   - type: Extractable
     juiceSolution:
       reagents:
-      - ReagentId: Plasma
+      - ReagentId: Phoron
         Quantity: 8
 
 - type: entity
-  id: OrganPlasmamanEyes
-  parent: [ BasePlasmamanOrgan, OrganHumanEyes ]
-  name: plasmaman eyes
+  id: OrganPhoronmanEyes
+  parent: [ BasePhoronmanOrgan, OrganHumanEyes ]
+  name: phoronman eyes
   components:
   - type: Sprite
     layers:
     - state: eyes
 
 - type: entity
-  id: OrganPlasmamanLiver
-  parent: [ BasePlasmamanOrgan, OrganHumanLiver ]
-  name: plasmaman liver
+  id: OrganPhoronmanLiver
+  parent: [ BasePhoronmanOrgan, OrganHumanLiver ]
+  name: phoronman liver
   components:
   - type: Metabolizer
-    metabolizerTypes: [ Plasmaman ]
+    metabolizerTypes: [ Phoronman ]
 
 - type: entity
-  id: OrganPlasmamanTongue
-  parent: [ BasePlasmamanOrgan, OrganHumanTongue ]
-  name: plasmaman tongue
+  id: OrganPhoronmanTongue
+  parent: [ BasePhoronmanOrgan, OrganHumanTongue ]
+  name: phoronman tongue
 
 - type: entity
-  id: OrganPlasmamanKidneys
-  parent: [ BasePlasmamanOrgan, OrganHumanKidneys ]
-  name: plasmaman kidneys
+  id: OrganPhoronmanKidneys
+  parent: [ BasePhoronmanOrgan, OrganHumanKidneys ]
+  name: phoronman kidneys
   components:
   - type: Sprite
     layers:
     - state: kidneys
   - type: Metabolizer
-    metabolizerTypes: [ Plasmaman ]
+    metabolizerTypes: [ Phoronman ]
 
 - type: entity
-  id: OrganPlasmamanHeart
-  parent: [ BasePlasmamanOrgan, OrganHumanHeart ]
-  name: plasmaman heart
-  description: It pulses with plasma even outside the body.
+  id: OrganPhoronmanHeart
+  parent: [ BasePhoronmanOrgan, OrganHumanHeart ]
+  name: phoronman heart
+  description: It pulses with phoron even outside the body.
   components:
   - type: Metabolizer
-    metabolizerTypes: [ Plasmaman ]
+    metabolizerTypes: [ Phoronman ]
 
 - type: entity
-  id: OrganPlasmamanBrain
-  parent: [ BasePlasmamanOrgan, OrganHumanBrain ]
-  name: plasmaman brain
+  id: OrganPhoronmanBrain
+  parent: [ BasePhoronmanOrgan, OrganHumanBrain ]
+  name: phoronman brain
   components:
   - type: SolutionContainerManager
     solutions:
@@ -139,12 +139,12 @@
         reagents:
         - ReagentId: Nutriment
           Quantity: 5
-        - ReagentId: Plasma
+        - ReagentId: Phoron
           Quantity: 2.5
       food:
         maxVol: 10
         reagents:
         - ReagentId: GreyMatter
           Quantity: 5
-        - ReagentId: Plasma
+        - ReagentId: Phoron
           Quantity: 5

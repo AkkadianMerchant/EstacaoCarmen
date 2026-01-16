@@ -48,10 +48,10 @@ public sealed partial class SupermatterSystem
         // No less then zero, and no greater then one, we use this to do explosions and heat to power transfer.
         var powerRatio = gases.Sum(gas => gases[gas.Key] * facts[gas.Key].PowerMixRatio);
 
-        // Minimum value of -10, maximum value of 23. Affects plasma, o2 and heat output.
+        // Minimum value of -10, maximum value of 23. Affects phoron, o2 and heat output.
         var heatModifier = gases.Sum(gas => gases[gas.Key] * facts[gas.Key].HeatPenalty);
 
-        // Minimum value of -10, maximum value of 23. Affects plasma, o2 and heat output.
+        // Minimum value of -10, maximum value of 23. Affects phoron, o2 and heat output.
         var transmissionBonus = gases.Sum(gas => gases[gas.Key] * facts[gas.Key].TransmitModifier);
 
         var h2OBonus = 1 - gases[Gas.WaterVapor] * 0.25f;
@@ -129,7 +129,7 @@ public sealed partial class SupermatterSystem
             Math.Min(absorbedGas.Temperature, sm.HeatThreshold * heatModifier));
 
         // Release the waste
-        absorbedGas.AdjustMoles(Gas.Plasma, Math.Max(energy * heatModifier * sm.PlasmaReleaseModifier, 0f));
+        absorbedGas.AdjustMoles(Gas.Phoron, Math.Max(energy * heatModifier * sm.PhoronReleaseModifier, 0f));
         absorbedGas.AdjustMoles(Gas.Oxygen, Math.Max((energy + absorbedGas.Temperature * heatModifier - Atmospherics.T0C) * sm.OxygenReleaseEfficiencyModifier, 0f));
 
         _atmosphere.Merge(mix, absorbedGas);

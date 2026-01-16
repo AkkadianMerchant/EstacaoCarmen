@@ -56,7 +56,7 @@
 - type: startingGear
   id: HoPGear
   subGear:
-  - HoPPlasmamanGear
+  - HoPPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitHoP
     back: ClothingBackpack
@@ -68,8 +68,8 @@
     - Flash
 
 - type: startingGear
-  id: HoPPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: HoPPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitHoP
     head: ClothingHeadEnvirohelmHoP

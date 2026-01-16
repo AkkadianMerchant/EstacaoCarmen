@@ -6,10 +6,10 @@
   maxCount: 30
 
 - type: stack
-  id: Plasma
-  name: plasma
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: plasma }
-  spawn: SheetPlasma1
+  id: Phoron
+  name: phoron
+  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: phoron }
+  spawn: SheetPhoron1
   maxCount: 30
 
 - type: stack

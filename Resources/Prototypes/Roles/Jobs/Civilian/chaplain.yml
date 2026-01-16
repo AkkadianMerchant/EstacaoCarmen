@@ -47,7 +47,7 @@
 - type: startingGear
   id: ChaplainGear
   subGear:
-  - ChaplainPlasmamanGear
+  - ChaplainPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitChaplain
     back: ClothingBackpack
@@ -57,8 +57,8 @@
     pocket1: BookPsionicsGuidebook
 
 - type: startingGear
-  id: ChaplainPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: ChaplainPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitChaplain
     head: ClothingHeadEnvirohelmChaplain

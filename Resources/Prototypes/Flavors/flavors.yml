@@ -1345,9 +1345,9 @@
   description: flavor-complex-zombiecocktail
 
 - type: flavor
-  id: plasma
+  id: phoron
   flavorType: Complex
-  description: flavor-complex-plasma
+  description: flavor-complex-phoron
 
 - type: flavor
   id: supernova

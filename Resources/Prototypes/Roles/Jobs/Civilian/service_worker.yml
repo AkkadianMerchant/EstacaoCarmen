@@ -22,7 +22,7 @@
 - type: startingGear
   id: ServiceWorkerGear
   subGear:
-  - ServiceWorkerPlasmamanGear
+  - ServiceWorkerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorDarkGreen
     back: ClothingBackpack
@@ -31,8 +31,8 @@
     ears: ClothingHeadsetService
 
 - type: startingGear
-  id: ServiceWorkerPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: ServiceWorkerPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitColorDarkGreen
     head: ClothingHeadEnvirohelmColorDarkGreen

@@ -19,7 +19,7 @@
 - type: startingGear
   id: MailCarrierGear
   subGear:
-  - MailCarrierPlasmamanGear
+  - MailCarrierPhoronmanGear
   equipment:
     head: ClothingHeadMailCarrier
     jumpsuit: ClothingUniformMailCarrier
@@ -30,8 +30,8 @@
     belt: MailBag
 
 - type: startingGear
-  id: MailCarrierPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: MailCarrierPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitMailCarrier
     head: ClothingHeadEnvirohelmMailCarrier

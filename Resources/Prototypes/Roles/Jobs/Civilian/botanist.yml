@@ -23,7 +23,7 @@
 - type: startingGear
   id: BotanistGear
   subGear:
-  - BotanistPlasmamanGear
+  - BotanistPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitHydroponics
     back: ClothingBackpackHydroponics
@@ -34,8 +34,8 @@
     belt: ClothingBeltPlantFilled
 
 - type: startingGear
-  id: BotanistPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: BotanistPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitHydroponics
     head: ClothingHeadEnvirohelmHydroponics

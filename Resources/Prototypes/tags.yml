@@ -1091,10 +1091,10 @@
   id: PlantSampleTakerHighQuality
 
 - type: Tag
-  id: PlasmaGlassShard
+  id: PhoronGlassShard
 
 - type: Tag
-  id: PlasmamanSafe
+  id: PhoronmanSafe
 
 - type: Tag
   id: Plastic
@@ -1215,7 +1215,7 @@
   id: SecBeltEquip
 
 - type: Tag
-  id: SecurePlasmaWindoor
+  id: SecurePhoronWindoor
 
 - type: Tag
   id: SecureUraniumWindoor

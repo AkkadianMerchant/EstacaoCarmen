@@ -39,7 +39,7 @@
   materials:
     Steel: 80
     Plastic: 80
-    Plasma: 75
+    Phoron: 75
 
 - type: latheRecipe
   id: AdvancedCapacitorStockPart
@@ -66,7 +66,7 @@
   materials:
     Steel: 150
     Plastic: 150
-    Plasma: 75
+    Phoron: 75
     Gold: 75
 
 - type: latheRecipe

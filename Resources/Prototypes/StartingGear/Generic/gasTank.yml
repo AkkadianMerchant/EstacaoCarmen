@@ -4,7 +4,7 @@
   subGear:
   - GasTankOxygenSuitStorage
   - GasTankNitrogenSuitStorage
-  - GasTankPlasmaSuitStorage
+  - GasTankPhoronSuitStorage
 
 - type: startingGear
   id: GasTankOxygenSuitStorage
@@ -19,7 +19,7 @@
     suitstorage: NitrogenTankFilled
 
 - type: startingGear
-  id: GasTankPlasmaSuitStorage
-  parent: PlasmaBreather
+  id: GasTankPhoronSuitStorage
+  parent: PhoronBreather
   equipment:
-    suitstorage: PlasmaTankFilled
+    suitstorage: PhoronTankFilled

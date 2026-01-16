@@ -348,7 +348,7 @@ entities:
     - type: Transform
       pos: 3.2434733,2.358453
       parent: 1
-- proto: DoubleEmergencyPlasmaTankFilled
+- proto: DoubleEmergencyPhoronTankFilled
   entities:
   - uid: 104
     components:

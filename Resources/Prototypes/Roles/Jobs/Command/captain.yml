@@ -40,7 +40,7 @@
 - type: startingGear
   id: CaptainGear
   subGear:
-  - CaptainPlasmamanGear
+  - CaptainPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCaptain
     back: ClothingBackpackCaptain
@@ -52,8 +52,8 @@
     - Flash
 
 - type: startingGear
-  id: CaptainPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: CaptainPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitCaptain
     head: ClothingHeadEnvirohelmCaptain

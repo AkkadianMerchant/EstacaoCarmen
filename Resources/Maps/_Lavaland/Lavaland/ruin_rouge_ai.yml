@@ -2845,7 +2845,7 @@ entities:
 
 
         God help us all...
-- proto: PlasmaReinforcedWindowDirectional
+- proto: PhoronReinforcedWindowDirectional
   entities:
   - uid: 287
     components:

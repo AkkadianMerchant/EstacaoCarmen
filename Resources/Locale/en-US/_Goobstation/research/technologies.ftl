@@ -1,4 +1,4 @@
-research-technology-weapon-plasma-rifle = Experimental plasma rifle
+research-technology-weapon-phoron-rifle = Experimental phoron rifle
 research-technology-medical-defense = Medical Control Gear
 research-technology-ripley-mkii = Ripley MK-II
 research-technology-clarke = Clarke

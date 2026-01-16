@@ -10,7 +10,7 @@
 - type: startingGear
   id: SpaceNinjaGear
   subGear:
-  - SpaceNinjaPlasmamanGear
+  - SpaceNinjaPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitNinja
     back: ClothingBackpackSatchel
@@ -42,8 +42,8 @@
     - DrinkSakeBottleFull
 
 - type: startingGear
-  id: SpaceNinjaPlasmamanGear
-  parent: BasePlasmamanGear
+  id: SpaceNinjaPhoronmanGear
+  parent: BasePhoronmanGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitColorBlack # TODO: actual ninja envirosuit
-    suitstorage: PlasmaTankFilled
+    suitstorage: PhoronTankFilled

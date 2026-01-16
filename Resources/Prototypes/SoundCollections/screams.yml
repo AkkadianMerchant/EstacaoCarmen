@@ -88,8 +88,8 @@
   - /Audio/Voice/Slime/slime_scream_f2.ogg
 
 - type: soundCollection
-  id: PlasmamanUnisexScreams
+  id: PhoronmanUnisexScreams
   files:
-  - /Audio/Voice/Plasmaman/plasmaman_scream_1.ogg
-  - /Audio/Voice/Plasmaman/plasmaman_scream_2.ogg
-  - /Audio/Voice/Plasmaman/plasmaman_scream_3.ogg
+  - /Audio/Voice/Phoronman/phoronman_scream_1.ogg
+  - /Audio/Voice/Phoronman/phoronman_scream_2.ogg
+  - /Audio/Voice/Phoronman/phoronman_scream_3.ogg

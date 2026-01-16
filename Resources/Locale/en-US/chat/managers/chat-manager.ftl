@@ -113,7 +113,7 @@ chat-speech-verb-reptilian-1 = hisses
 chat-speech-verb-reptilian-2 = snorts
 chat-speech-verb-reptilian-3 = huffs
 
-chat-speech-verb-name-skeleton = Skeleton / Plasmaman
+chat-speech-verb-name-skeleton = Skeleton / Phoronman
 chat-speech-verb-skeleton-1 = rattles
 chat-speech-verb-skeleton-2 = ribs
 chat-speech-verb-skeleton-3 = bones

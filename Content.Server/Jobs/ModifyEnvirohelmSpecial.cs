@@ -19,7 +19,7 @@ public sealed partial class ModifyEnvirohelmSpecial : JobSpecial
     public ProtoId<EntityPrototype> PowerCell { get; private set; }
 
     [ValidatePrototypeId<SpeciesPrototype>]
-    private const string Species = "Plasmaman";
+    private const string Species = "Phoronman";
 
     [ValidatePrototypeId<TagPrototype>]
     private const string Tag = "Envirohelm";

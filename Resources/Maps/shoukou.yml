@@ -6662,7 +6662,7 @@ entities:
     - type: Transform
       pos: -36.5,-41.5
       parent: 2
-- proto: AtmosFixPlasmaMarker
+- proto: AtmosFixPhoronMarker
   entities:
   - uid: 406
     components:
@@ -37967,7 +37967,7 @@ entities:
   - uid: 6086
     components:
     - type: MetaData
-      name: plasma mixer
+      name: phoron mixer
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -43.5,-44.5
@@ -54496,7 +54496,7 @@ entities:
   - uid: 8248
     components:
     - type: MetaData
-      name: plasma pump
+      name: phoron pump
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -40.5,-44.5
@@ -63114,14 +63114,14 @@ entities:
     - type: Transform
       pos: 37.5,-34.5
       parent: 2
-- proto: PlasmaCanister
+- proto: PhoronCanister
   entities:
   - uid: 9646
     components:
     - type: Transform
       pos: -52.5,-32.5
       parent: 2
-- proto: PlasmaReinforcedWindowDirectional
+- proto: PhoronReinforcedWindowDirectional
   entities:
   - uid: 9647
     components:
@@ -67573,7 +67573,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 61.5,-29.5
       parent: 2
-- proto: ReinforcedPlasmaWindow
+- proto: ReinforcedPhoronWindow
   entities:
   - uid: 10399
     components:
@@ -69513,14 +69513,14 @@ entities:
     - type: Transform
       pos: -32.350746,-27.221853
       parent: 2
-- proto: SheetPlasma
+- proto: SheetPhoron
   entities:
   - uid: 10773
     components:
     - type: Transform
       pos: -34.59602,1.5904913
       parent: 2
-- proto: SheetPlasma1
+- proto: SheetPhoron1
   entities:
   - uid: 10774
     components:
@@ -74863,7 +74863,7 @@ entities:
     - type: Transform
       pos: 22.5,-14.5
       parent: 2
-- proto: TablePlasmaGlass
+- proto: TablePhoronGlass
   entities:
   - uid: 11567
     components:
@@ -84695,12 +84695,12 @@ entities:
     - type: Transform
       pos: -39.5,-42.5
       parent: 2
-- proto: WarningPlasma
+- proto: WarningPhoron
   entities:
   - uid: 13429
     components:
     - type: MetaData
-      name: plasma warning sign
+      name: phoron warning sign
     - type: Transform
       pos: -39.5,-44.5
       parent: 2

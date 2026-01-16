@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: SpawnPointGhostBlob
   name: Blob
   suffix: DONTMAP, spawner
@@ -329,7 +329,7 @@
   parent: BaseBlob
   id: StrongBlobTile
   name: StrongBlobTile
-  description: The basis of defensive positions has not only a strength of 6 times, this tile is also capable of withstanding various gases in order to become an atmospheric technician to protect the core, for example, from plasma that the enemy can set on fire.
+  description: The basis of defensive positions has not only a strength of 6 times, this tile is also capable of withstanding various gases in order to become an atmospheric technician to protect the core, for example, from phoron that the enemy can set on fire.
   categories: [ HideSpawnMenu ]
   components:
     - type: Airtight

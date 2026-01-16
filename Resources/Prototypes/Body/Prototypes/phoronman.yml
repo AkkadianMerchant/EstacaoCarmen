@@ -1,0 +1,50 @@
+- type: body
+  id: Phoronman
+  name: "phoronman"
+  root: torso
+  slots:
+    head:
+      part: HeadPhoronman
+      connections:
+      - torso
+      organs:
+        brain: OrganPhoronmanBrain
+        eyes: OrganPhoronmanEyes
+    torso:
+      part: TorsoPhoronman
+      connections:
+      - right arm
+      - left arm
+      - right leg
+      - left leg
+      - head
+      organs:
+        heart: OrganPhoronmanHeart
+        lungs: OrganPhoronmanLungs
+        stomach: OrganPhoronmanStomach
+        liver: OrganPhoronmanLiver
+        kidneys: OrganPhoronmanKidneys
+    right arm:
+      part: RightArmPhoronman
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmPhoronman
+      connections:
+      - left hand
+    right hand:
+      part: RightHandPhoronman
+    left hand:
+      part: LeftHandPhoronman
+    right leg:
+      part: RightLegPhoronman
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegPhoronman
+      connections:
+      - left foot
+    right foot:
+      part: RightFootPhoronman
+    left foot:
+      part: LeftFootPhoronman

@@ -56,7 +56,7 @@
 - type: startingGear
   id: ForensicMantisGear
   subGear:
-  - ForensicMantisPlasmamanGear
+  - ForensicMantisPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMantis
     back: ClothingBackpackScience
@@ -77,8 +77,8 @@
     - RubberStampMantis
 
 - type: startingGear
-  id: ForensicMantisPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: ForensicMantisPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitMantis
     head: ClothingHeadEnvirohelmMantis

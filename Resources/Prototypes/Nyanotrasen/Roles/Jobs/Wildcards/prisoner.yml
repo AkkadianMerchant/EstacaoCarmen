@@ -35,7 +35,7 @@
 - type: startingGear
   id: PrisonerGear
   subGear:
-  - PrisonerPlasmamanGear
+  - PrisonerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitPrisoner
     shoes: ClothingShoesColorBlack
@@ -43,8 +43,8 @@
     ears: ClothingHeadsetPrison #deltaV
 
 - type: startingGear
-  id: PrisonerPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: PrisonerPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitPrisoner
     head: ClothingHeadEnvirohelmPrisoner

@@ -1,4 +1,4 @@
-﻿- type: trait
+- type: trait
   id: PirateAccent
   # slots: 0
   # itemGroupSlots: 0
@@ -122,7 +122,7 @@
     group: TraitsAccents
   - !type:CharacterSpeciesRequirement
     species:
-    - Plasmaman
+    - Phoronman
   functions:
   - !type:TraitAddComponent
     components:

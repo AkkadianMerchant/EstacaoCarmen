@@ -2,7 +2,7 @@
   id: WingsSkeleton
   bodyPart: Wings
   markingCategory: Wings
-  speciesRestriction: [Plasmaman]
+  speciesRestriction: [Phoronman]
   sprites:
     - sprite: _SimpleStation/Mobs/Customization/wings64x34.rsi
       state: skeleton

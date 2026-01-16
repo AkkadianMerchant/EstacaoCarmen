@@ -3,7 +3,7 @@
 # Enjoy having to shove any new ores here.
 
 # The mining point values are a bit of a hodgepodge between 13s, and some small considerations taken here as well.
-# Iron, Quartz, Coal and Bananium are all analogues to their 13 values, while Gold, Plasma, Uranium and Silver are all cut by 1/4.
+# Iron, Quartz, Coal and Bananium are all analogues to their 13 values, while Gold, Phoron, Uranium and Silver are all cut by 1/4.
 # And since Diamond should be fairly rare, its value is still left on 100. Bananium was modified as a test :) All values are subject to adjustment.
 - type: entity
   parent: GoldOre
@@ -66,19 +66,19 @@
     count: 1
 
 - type: entity
-  parent: PlasmaOre
-  id: PlasmaOreUnprocessed
+  parent: PhoronOre
+  id: PhoronOreUnprocessed
   name: native phoron
   suffix: Full
   components:
   - type: Stack
-    stackType: PlasmaOreUnprocessed
+    stackType: PhoronOreUnprocessed
   - type: UnclaimedOre
     miningPoints: 6
 
 - type: entity
-  parent: PlasmaOreUnprocessed
-  id: PlasmaOre1Unprocessed
+  parent: PhoronOreUnprocessed
+  id: PhoronOre1Unprocessed
   name: native phoron
   suffix: Single
   components:

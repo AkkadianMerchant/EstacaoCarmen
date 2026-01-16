@@ -671,7 +671,7 @@
         - !type:MappingTemplatePrototype
           id: DefaultStationBeaconAnomalyGenerator
         - !type:MappingTemplatePrototype
-          id: SheetPlasma
+          id: SheetPhoron
     - !type:MappingTemplatePrototype
       id: Robotics
       children:
@@ -800,7 +800,7 @@
         - !type:MappingTemplatePrototype
           id: StorageCanister
         - !type:MappingTemplatePrototype
-          id: PlasmaCanister
+          id: PhoronCanister
         - !type:MappingTemplatePrototype
           id: NitrousOxideCanister
     - !type:MappingTemplatePrototype

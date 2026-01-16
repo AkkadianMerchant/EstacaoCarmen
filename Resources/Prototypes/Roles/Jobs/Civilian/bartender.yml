@@ -26,7 +26,7 @@
 - type: startingGear
   id: BartenderGear
   subGear:
-  - BartenderPlasmamanGear
+  - BartenderPhoronmanGear
   equipment:
     head: ClothingHeadHatTophat
     jumpsuit: ClothingUniformJumpsuitBartender
@@ -37,8 +37,8 @@
     ears: ClothingHeadsetService
 
 - type: startingGear
-  id: BartenderPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: BartenderPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitEnviroslacks
     head: ClothingHeadEnvirohelmColorWhite

@@ -41,7 +41,7 @@
 - type: startingGear
   id: SecurityCadetGear
   subGear:
-  - SecurityOfficerPlasmamanGear
+  - SecurityOfficerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorRed
     back: ClothingBackpackSecurity

@@ -33,7 +33,7 @@
 - type: startingGear
   id: ClerkGear
   subGear:
-  - PassengerPlasmamanGear
+  - PassengerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitClerk
     back: ClothingBackpack

@@ -1,7 +1,7 @@
 - type: startingGear
   id: CourierGear
   subGear:
-  - CourierPlasmamanGear
+  - CourierPhoronmanGear
   equipment:
     head: ClothingHeadCourier
     jumpsuit: ClothingUniformCourier
@@ -12,8 +12,8 @@
     belt: CourierBag
 
 - type: startingGear
-  id: CourierPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: CourierPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitCourier
     head: ClothingHeadEnvirohelmCourier

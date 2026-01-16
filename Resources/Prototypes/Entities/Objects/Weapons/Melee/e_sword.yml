@@ -99,7 +99,7 @@
   name: energy sword
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
   id: EnergySword
-  description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
+  description: A very loud & dangerous sword with a beam made of pure, concentrated phoron. Cuts through unarmored targets like butter.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword.rsi
@@ -130,7 +130,7 @@
   name: energy dagger
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
   id: EnergyDaggerLoud
-  description: A not as loud and dangerous dagger with a beam made of pure, concentrated plasma. This one is completely undisguised.
+  description: A not as loud and dangerous dagger with a beam made of pure, concentrated phoron. This one is completely undisguised.
   components:
   - type: ItemToggle
     soundActivate:
@@ -295,7 +295,7 @@
   name: energy cutlass
   parent: [BaseMeleeWeaponEnergy, BaseMajorContraband]
   id: EnergyCutlass
-  description: An exotic energy weapon, brutal blade crackling with crudely harnessed plasma.
+  description: An exotic energy weapon, brutal blade crackling with crudely harnessed phoron.
   components:
   - type: ItemToggleMeleeWeapon
     activatedDamage:
@@ -326,7 +326,7 @@
   name: energy cutlass
   parent: EnergyCutlass
   id: EnergyCutlassSecurity
-  description: A sleek energy weapon, its blade hums with volatile plasma, expertly contained to cut through nearly any material. The serial number on the hilt marks this gun as belonging to an NT Security Officer. # how do I make the text blue
+  description: A sleek energy weapon, its blade hums with volatile phoron, expertly contained to cut through nearly any material. The serial number on the hilt marks this gun as belonging to an NT Security Officer. # how do I make the text blue
   suffix: Security Loadouts
   components:
   - type: MeleeWeapon

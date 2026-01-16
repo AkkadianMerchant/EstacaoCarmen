@@ -2073,7 +2073,7 @@ entities:
     - pos: 21.743324,22.05294
       parent: 1653
       type: Transform
-- proto: PlasmaOre1
+- proto: PhoronOre1
   entities:
   - uid: 469
     components:

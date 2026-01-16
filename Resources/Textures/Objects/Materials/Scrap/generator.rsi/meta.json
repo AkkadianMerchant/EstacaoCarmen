@@ -8,10 +8,10 @@
     },
     "states": [
       {
-        "name": "old_generator_plasma"
+        "name": "old_generator_phoron"
       },
       {
-        "name": "old_generator_plasma_fuel_leak"
+        "name": "old_generator_phoron_fuel_leak"
       },
       {
         "name": "generator_frame"

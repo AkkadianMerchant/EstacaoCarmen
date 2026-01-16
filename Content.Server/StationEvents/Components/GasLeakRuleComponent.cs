@@ -1,4 +1,4 @@
-﻿using Content.Server.StationEvents.Events;
+using Content.Server.StationEvents.Events;
 using Content.Shared.Atmos;
 using Robust.Shared.Map;
 
@@ -10,7 +10,7 @@ public sealed partial class GasLeakRuleComponent : Component
     public readonly Gas[] LeakableGases =
     {
         Gas.Ammonia,
-        Gas.Plasma,
+        Gas.Phoron,
         Gas.Tritium,
         Gas.Frezon,
         Gas.WaterVapor, // the fog

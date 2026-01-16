@@ -43,7 +43,7 @@
 - type: startingGear
   id: ChiefEngineerGear
   subGear:
-  - ChiefEngineerPlasmamanGear
+  - ChiefEngineerPhoronmanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineer
     back: ClothingBackpackEngineering
@@ -55,8 +55,8 @@
     - Flash
 
 - type: startingGear
-  id: ChiefEngineerPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  id: ChiefEngineerPhoronmanGear
+  parent: BasePhoronmanMaskGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitChiefEngineer
     head: ClothingHeadEnvirohelmChiefEngineer

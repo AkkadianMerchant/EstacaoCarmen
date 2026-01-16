@@ -28,11 +28,11 @@
             "directions": 4
         },
         {
-            "name": "plasma_window",
+            "name": "phoron_window",
             "directions": 4
         },
         {
-            "name": "plasma_reinforced_window",
+            "name": "phoron_reinforced_window",
             "directions": 4
         },
         {

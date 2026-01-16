@@ -350,7 +350,7 @@
       inverted: true
       species:
         - Vulpkanin # This trait functions exactly as-is for the Vulpkanin trait.
-        - Plasmaman # Plasmamen have cold immunity so this trait is unnecessary
+        - Phoronman # Phoronmen have cold immunity so this trait is unnecessary
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -385,7 +385,7 @@
         types:
           Piercing: 5 # No, this isn't "OP", this is literally the worst brute damage type in the game.
                       # Same deal as Slash, except that a majority of all armor provides Piercing resistance.
-    - !type:TraitRemoveComponent # Plasmamen have self-damage on melee attacks
+    - !type:TraitRemoveComponent # Phoronmen have self-damage on melee attacks
       components:
         - type: DamageOnHit
           damage:

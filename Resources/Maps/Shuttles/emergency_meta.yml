@@ -5531,7 +5531,7 @@ entities:
       parent: 103
     - type: Physics
       canCollide: False
-- proto: PlasmaReinforcedWindowDirectional
+- proto: PhoronReinforcedWindowDirectional
   entities:
   - uid: 713
     components:

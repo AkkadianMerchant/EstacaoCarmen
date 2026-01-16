@@ -999,13 +999,13 @@
   conditions:
   - !type:BuyerSpeciesCondition
     blacklist:
-    - Plasmaman
+    - Phoronman
 
 - type: listing
-  id: UplinkBribePlasmaman
-  name: uplink-bribe-plasmaman-name
-  description: uplink-bribe-plasmaman-desc
-  productEntity: BriefcaseSyndieLobbyingBundlePlasmamanFilled
+  id: UplinkBribePhoronman
+  name: uplink-bribe-phoronman-name
+  description: uplink-bribe-phoronman-desc
+  productEntity: BriefcaseSyndieLobbyingBundlePhoronmanFilled
   discountCategory: usualDiscounts
   discountDownTo:
     Telecrystal: 10
@@ -1016,7 +1016,7 @@
   conditions:
   - !type:BuyerSpeciesCondition
     whitelist:
-    - Plasmaman
+    - Phoronman
 
 # - type: listing
 #   id: UplinkGigacancerScanner

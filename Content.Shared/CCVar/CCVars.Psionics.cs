@@ -8,7 +8,7 @@ public sealed partial class CCVars
     ///    Whether glimmer is enabled.
     /// </summary>
     public static readonly CVarDef<bool> GlimmerEnabled =
-        CVarDef.Create("glimmer.enabled", true, CVar.REPLICATED);
+        CVarDef.Create("glimmer.enabled", false, CVar.REPLICATED);
 
     /// <summary>
     ///     The rate at which glimmer linearly decays. Since glimmer increases (usually) follow a logistic curve, this means glimmer

@@ -1,1 +1,1 @@
-department-Justice = Justice
+department-Justice = Justiça

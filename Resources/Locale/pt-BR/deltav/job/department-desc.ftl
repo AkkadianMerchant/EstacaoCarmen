@@ -1,2 +1,2 @@
-department-Justice-description = Uphold justice on the station.
+department-Justice-description = Assegure a justiça na estação.
 

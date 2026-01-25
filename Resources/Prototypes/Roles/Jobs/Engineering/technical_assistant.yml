@@ -11,6 +11,10 @@
   - Engineering
   - External
   requirements:
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - Blindness
   - !type:CharacterEmployerRequirement
     employers:
     - HephaestusIndustries

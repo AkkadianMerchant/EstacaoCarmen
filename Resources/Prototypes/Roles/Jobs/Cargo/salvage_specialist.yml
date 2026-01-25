@@ -6,7 +6,16 @@
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Logistics
-    min: 21600
+    min: 3500
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - Foreigner
+    - ForeignerLight
+    - Muted
+    - Blindness
+    - Pacifist
+    - BrittleBoneDisease
   - !type:CharacterEmployerRequirement
     employers:
     - OrionExpress

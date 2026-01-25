@@ -22,16 +22,13 @@
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security
-  canBeAntag: false
+  canBeAntag: true
   access:
   - Security
   - Maintenance
   - Service
   - External
   - Cryogenics
-  special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
   afterLoadoutSpecial:
   - !type:ModifyEnvirosuitSpecial
     charges: 6

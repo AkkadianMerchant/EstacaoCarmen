@@ -3,7 +3,7 @@
   name: job-name-senior-officer
   description: job-description-senior-officer
   playTimeTracker: JobSeniorOfficer
-  setPreference: true
+  setPreference: false
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobWarden
@@ -41,9 +41,6 @@
   - Maintenance
   - Service
   - External
-  special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
   afterLoadoutSpecial:
   - !type:ModifyEnvirosuitSpecial
     charges: 6

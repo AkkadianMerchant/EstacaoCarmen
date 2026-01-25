@@ -4,9 +4,13 @@
   description: job-description-engineer
   playTimeTracker: JobStationEngineer
   requirements:
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - Blindness
   - !type:CharacterDepartmentTimeRequirement
     department: Engineering
-    min: 14400 #4 hrs
+    min: 3600
   - !type:CharacterEmployerRequirement
     employers:
     - HephaestusIndustries

@@ -6,7 +6,11 @@
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Engineering
-    min: 36000
+    min: 3600
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - Blindness
   - !type:CharacterEmployerRequirement
     employers:
     - HephaestusIndustries

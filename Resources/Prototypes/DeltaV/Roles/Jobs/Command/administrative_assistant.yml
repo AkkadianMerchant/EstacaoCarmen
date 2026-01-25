@@ -34,13 +34,11 @@
   startingGear: AdminAssistantGear
   icon: "JobIconAdminAssitant"
   supervisors: job-supervisors-command
-  canBeAntag: false
+  canBeAntag: true
   access:
     - Command
     - Maintenance
   special:
-    - !type:AddImplantSpecial
-      implants: [MindShieldImplant]
     - !type:AddComponentSpecial
       components:
       - type: CommandStaff

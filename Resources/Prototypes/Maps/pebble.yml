@@ -36,7 +36,7 @@
           #engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 1, 1]
-            SeniorEngineer: [ 1, 1 ]
+            #SeniorEngineer: [ 1, 1 ]
             StationEngineer: [ 2, 3 ]
             TechnicalAssistant: [ 2, 2 ]
           #medical
@@ -50,8 +50,8 @@
           #science
             ResearchDirector: [ 1, 1 ]
             Chaplain: [ 1, 1 ]
-            ForensicMantis: [ 1, 1 ]
-            SeniorResearcher: [ 1, 1]
+            #ForensicMantis: [ 1, 1 ]
+            #SeniorResearcher: [ 1, 1]
             Scientist: [ 2, 3 ]
             ResearchAssistant: [ 2, 2 ]
             Borg: [ 1, 1 ]
@@ -59,7 +59,7 @@
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
             Detective: [ 1, 1 ]
-            SeniorOfficer: [ 1, 1 ]
+            #SeniorOfficer: [ 1, 1 ]
             SecurityOfficer: [ 2, 2 ]
             SecurityCadet: [ 1, 1 ]
           #supply

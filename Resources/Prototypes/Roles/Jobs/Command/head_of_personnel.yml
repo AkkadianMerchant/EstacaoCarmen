@@ -4,6 +4,9 @@
   description: job-description-hop
   playTimeTracker: JobHeadOfPersonnel
   requirements:
+  - !type:CharacterSpeciesRequirement
+    species:
+    - Human
   - !type:CharacterTraitRequirement
     inverted: true
     traits:
@@ -42,8 +45,6 @@
   - Reporter
   - Zookeeper
   special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
     - type: CommandStaff

@@ -4,6 +4,10 @@
   description: job-description-qm
   playTimeTracker: JobQuartermaster
   requirements:
+  - !type:CharacterSpeciesRequirement
+    inverted: true
+    species:
+    - IPC
   - !type:CharacterTraitRequirement
     inverted: true
     traits:

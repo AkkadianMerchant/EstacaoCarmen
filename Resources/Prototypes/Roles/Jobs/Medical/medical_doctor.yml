@@ -6,12 +6,16 @@
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Medical
-    min: 14400 #4 hrs
+    min: 3600
   - !type:CharacterEmployerRequirement
     employers:
     - ZengHuPharmaceuticals
     - Interdyne
     - NanoTrasen
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - Blindness
   startingGear: DoctorGear
   icon: "JobIconMedicalDoctor"
   supervisors: job-supervisors-cmo

@@ -3,44 +3,13 @@
   name: job-name-librarian
   description: job-description-librarian
   playTimeTracker: JobLibrarian
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Epistemics
-    min: 14400
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-      - IPC
-    - !type:CharacterTraitRequirement
-      traits:
-      - AnomalousPositronics
-  - !type:CharacterEmployerRequirement
-    employers:
-    - NanoTrasen
-  - !type:CharacterItemGroupRequirement
-    group: TraitsCasterType
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
-  supervisors: job-supervisors-rd
+  supervisors: job-supervisors-hire
   access:
   - Research
   - Maintenance
   - Library
-  special:
-  - !type:AddComponentSpecial
-    components:
-    - type: Psionic
-      baselinePowerCost: 75
-      nextPowerCost: 75
-      removable: false
-      powerPool: PsychoHistorianPowerPool
-    - type: InnatePsionicPowers
-      powersToAdd:
-      - XenoglossyPower
-      - TelepathyPower
-      - AssayPower
 
 
 - type: startingGear

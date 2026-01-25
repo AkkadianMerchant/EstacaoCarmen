@@ -28,7 +28,7 @@
   startingGear: CorpsmanGear
   icon: "JobIconBrigmedic"
   supervisors: job-supervisors-hos
-  canBeAntag: false
+  canBeAntag: true
   access:
   - Medical
   - Security
@@ -39,8 +39,6 @@
   extendedAccess:
   - Chemistry
   special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
     - type: CPRTraining

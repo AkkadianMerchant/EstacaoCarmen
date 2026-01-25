@@ -13,6 +13,10 @@
   - AllAccess
   access:
   - CentralCommand
+  requirements:
+  - !type:CharacterSpeciesRequirement
+    species:
+    - Human
 
 - type: startingGear
   id: ERTLeaderGear

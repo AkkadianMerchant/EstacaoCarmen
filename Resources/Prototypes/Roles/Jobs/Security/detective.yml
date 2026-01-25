@@ -6,7 +6,7 @@
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Security
-    min: 36000
+    min: 3600
   - !type:CharacterTraitRequirement
     inverted: true
     traits:
@@ -32,9 +32,6 @@
   - Detective
   - External
   - Cryogenics
-  special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
   afterLoadoutSpecial:
   - !type:ModifyEnvirosuitSpecial
     charges: 6

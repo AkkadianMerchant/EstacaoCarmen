@@ -4,23 +4,17 @@
   description: job-description-rd
   playTimeTracker: JobResearchDirector
   requirements:
-  - !type:CharacterItemGroupRequirement
-    group: TraitsCasterType
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-      - IPC
-    - !type:CharacterTraitRequirement
-      traits:
-      - AnomalousPositronics
+  - !type:CharacterSpeciesRequirement
+    inverted: true
+    species:
+    - IPC
   - !type:CharacterTraitRequirement
     inverted: true
     traits:
     - Muted
     - Foreigner
     - ForeignerLight
+    - Blindness
   - !type:CharacterEmployerRequirement
     employers:
     - NanoTrasen
@@ -29,7 +23,7 @@
   icon: "JobIconResearchDirector"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
-  canBeAntag: false
+  canBeAntag: true
   access:
   - Research
   - Command
@@ -39,22 +33,6 @@
   - Chapel
   - External
   - Cryogenics
-  special:
-  - !type:AddComponentSpecial
-    components:
-    - type: BibleUser
-    - type: Psionic
-      powerSlots: 3
-      baselinePowerCost: 75
-      nextPowerCost: 75
-    - type: CommandStaff
-    - type: InnatePsionicPowers
-      powersToAdd:
-      - DispelPower
-      - MetapsionicPower
-      - TelepathyPower
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
   afterLoadoutSpecial:
   - !type:ModifyEnvirosuitSpecial
     charges: 8

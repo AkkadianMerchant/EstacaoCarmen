@@ -4,9 +4,13 @@
   description: job-description-captain
   playTimeTracker: JobCaptain
   requirements:
+  - !type:CharacterSpeciesRequirement
+    species:
+    - Human
   - !type:CharacterTraitRequirement
     inverted: true
     traits:
+    - Blindness
     - Foreigner
     - ForeignerLight
     - Pacifist
@@ -24,8 +28,6 @@
   accessGroups:
   - AllAccess
   special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
     - type: CommandStaff

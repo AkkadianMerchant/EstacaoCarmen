@@ -6,7 +6,7 @@
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Epistemics
-    min: 14400 #4 hrs
+    min: 3600
   - !type:CharacterEmployerRequirement
     employers:
     - NanoTrasen

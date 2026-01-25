@@ -17,6 +17,10 @@
     charges: 10
   - !type:ModifyEnvirohelmSpecial
     powerCell: PowerCellHigh
+  requirements:
+  - !type:CharacterSpeciesRequirement
+    species:
+    - Human
 
 - type: startingGear
   id: CentcomGear

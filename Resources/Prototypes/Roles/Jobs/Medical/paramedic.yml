@@ -6,12 +6,16 @@
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Medical
-    min: 28800
+    min: 3600
   - !type:CharacterEmployerRequirement
     employers:
     - Interdyne
     - NanoTrasen
     - ZengHuPharmaceuticals
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - Blindness
   startingGear: ParamedicGear
   icon: "JobIconParamedic"
   supervisors: job-supervisors-cmo

@@ -4,9 +4,14 @@
   description: job-description-ce
   playTimeTracker: JobChiefEngineer
   requirements:
+  - !type:CharacterSpeciesRequirement
+    inverted: true
+    species:
+    - IPC
   - !type:CharacterTraitRequirement
     inverted: true
     traits:
+    - Blindness
     - Foreigner
     - ForeignerLight
   - !type:CharacterEmployerRequirement
@@ -19,7 +24,7 @@
   icon: "JobIconChiefEngineer"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
-  canBeAntag: false
+  canBeAntag: true
   access:
   - Maintenance
   - Engineering
@@ -29,8 +34,6 @@
   - Atmospherics
   - Cryogenics
   special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
     - type: CommandStaff

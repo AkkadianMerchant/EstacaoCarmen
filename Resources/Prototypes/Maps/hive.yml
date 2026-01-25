@@ -31,7 +31,7 @@
              ChiefEngineer: [ 1, 1 ]
              StationEngineer: [ 3, 4 ]
              TechnicalAssistant: [ 2, 3 ]
-             SeniorEngineer: [ 1, 1 ]
+             #SeniorEngineer: [ 1, 1 ]
            #medical
              Chemist: [ 2, 2 ]
              ChiefMedicalOfficer: [ 1, 1 ]
@@ -47,7 +47,7 @@
              Prisoner: [ 2, 3 ]
              # PrisonGuard: [ 1, 1 ] # EE: Disabled
              SecurityOfficer: [ 4, 6 ]
-             SeniorOfficer: [ 1, 1 ]
+             #SeniorOfficer: [ 1, 1 ]
              SecurityCadet: [ 1, 2 ]
              Warden: [ 1, 1 ]
            #service
@@ -65,11 +65,11 @@
              ServiceWorker: [ 2, 4 ]
            #science
              Chaplain: [ 1, 1 ]
-             ForensicMantis: [ 1, 1 ]
+             #ForensicMantis: [ 1, 1 ]
              ResearchAssistant: [ 2, 3 ]
              ResearchDirector: [ 1, 1 ]
              Scientist: [ 3, 5 ]
-             SeniorResearcher: [ 1, 1 ]
+             #SeniorResearcher: [ 1, 1 ]
            #supply
              Quartermaster: [ 1, 1 ]
              CargoTechnician: [ 2, 3 ]

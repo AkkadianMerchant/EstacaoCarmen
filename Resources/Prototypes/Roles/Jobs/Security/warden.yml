@@ -6,10 +6,10 @@
   requirements:
   - !type:CharacterPlaytimeRequirement
     tracker: JobSecurityOfficer
-    min: 43200 # DeltaV - 12 hrs
-  - !type:CharacterPlaytimeRequirement
-    tracker: JobDetective
-    min: 14400 # DeltaV - 4 hours
+    min: 3600
+#  - !type:CharacterPlaytimeRequirement
+#    tracker: JobDetective
+#    min: 14400 # DeltaV - 4 hours
   - !type:CharacterWhitelistRequirement
   - !type:CharacterTraitRequirement
     inverted: true
@@ -37,9 +37,6 @@
   - External
   - Detective
   - Cryogenics
-  special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
   afterLoadoutSpecial:
   - !type:ModifyEnvirosuitSpecial
     charges: 6

@@ -6,7 +6,11 @@
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Epistemics
-    min: 14400 # 4 hours - same as scientist
+    min: 3600
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - Blindness
   - !type:CharacterEmployerRequirement
       employers:
       - ZavodskoiInterstellar

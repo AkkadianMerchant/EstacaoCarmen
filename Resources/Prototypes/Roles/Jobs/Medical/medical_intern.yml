@@ -9,6 +9,10 @@
     - ZengHuPharmaceuticals
     - Interdyne
     - NanoTrasen
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - Blindness
   startingGear: MedicalInternGear
   icon: "JobIconMedicalIntern"
   supervisors: job-supervisors-medicine

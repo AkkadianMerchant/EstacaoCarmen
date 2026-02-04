@@ -141,14 +141,14 @@ public sealed partial class CCVars
     ///     in-game.
     /// </summary>
     public static readonly CVarDef<float> AtmosSpeedup =
-        CVarDef.Create("atmos.speedup", 4f, CVar.SERVERONLY);
+        CVarDef.Create("atmos.speedup", 8f, CVar.SERVERONLY);
 
     /// <summary>
     ///     Like atmos.speedup, but only for gas and reaction heat values. 64x means
     ///     gases heat up and cool down 64x faster than real life.
     /// </summary>
     public static readonly CVarDef<float> AtmosHeatScale =
-        CVarDef.Create("atmos.heat_scale", 4f, CVar.SERVERONLY);
+        CVarDef.Create("atmos.heat_scale", 8f, CVar.SERVERONLY);
 
     /// <summary>
     ///     A multiplier on the amount of force applied to Humanoid entities, as tracked by HumanoidAppearanceComponent

@@ -45,7 +45,36 @@
       - !type:HealthChange
         damage:
           types:
-            Poison: 2
+            Caustic: 6
+    Gas:
+      effects:
+      - !type:HealthChange
+        scaleByQuantity: true
+        ignoreResistances: true
+        damage:
+          types:
+            Caustic: 7
+            Asphyxiation: 10
+      - !type:GenericStatusEffect
+        key: TemporaryBlindness
+        component: TemporaryBlindness
+        conditions:
+        - !type:ReagentThreshold
+          min: 0.01
+      - !type:PopupMessage
+        type: Local
+        visualType: Medium
+        messages: 
+        - chlorine-lungs-burn
+        - chlorine-skin-burn
+        probability: 0.3
+      - !type:PopupMessage
+        type: Local
+        probability: 0.7
+        messages:
+        - generic-reagent-effect-burning-eyes
+        - generic-reagent-effect-burning-eyes-a-bit
+        - generic-reagent-effect-tearing-up
 
 - type: reagent
   id: Copper

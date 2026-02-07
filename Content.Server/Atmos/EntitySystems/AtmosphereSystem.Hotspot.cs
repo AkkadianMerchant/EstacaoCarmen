@@ -46,7 +46,7 @@ namespace Content.Server.Atmos.EntitySystems
                 ExcitedGroupResetCooldowns(tile.ExcitedGroup);
 
             if ((tile.Hotspot.Temperature < Atmospherics.FireMinimumTemperatureToExist) || (tile.Hotspot.Volume <= 1f)
-                || tile.Air == null || tile.Air.GetMoles(Gas.Oxygen) < 0.5f || (tile.Air.GetMoles(Gas.Phoron) < 0.5f && tile.Air.GetMoles(Gas.Tritium) < 0.5f))
+                || tile.Air == null || tile.Air.GetMoles(Gas.Oxygen) < 0.5f || (tile.Air.GetMoles(Gas.Phoron) < 0.5f && tile.Air.GetMoles(Gas.Tritium) < 0.5f && tile.Air.GetMoles(Gas.Hydrogen) < 0.5f))
             {
                 tile.Hotspot = new Hotspot();
                 InvalidateVisuals(ent, tile);
@@ -134,12 +134,13 @@ namespace Content.Server.Atmos.EntitySystems
 
             var phoron = tile.Air.GetMoles(Gas.Phoron);
             var tritium = tile.Air.GetMoles(Gas.Tritium);
+            var hydrogen = tile.Air.GetMoles(Gas.Hydrogen);
 
             if (tile.Hotspot.Valid)
             {
                 if (soh)
                 {
-                    if (phoron > 0.5f || tritium > 0.5f)
+                    if (phoron > 0.5f || tritium > 0.5f || hydrogen > 0.5f)
                     {
                         if (tile.Hotspot.Temperature < exposedTemperature)
                             tile.Hotspot.Temperature = exposedTemperature;
@@ -151,7 +152,7 @@ namespace Content.Server.Atmos.EntitySystems
                 return;
             }
 
-            if ((exposedTemperature > Atmospherics.PhoronMinimumBurnTemperature) && (phoron > 0.5f || tritium > 0.5f))
+            if ((exposedTemperature > Atmospherics.PhoronMinimumBurnTemperature) && (phoron > 0.5f || tritium > 0.5f || hydrogen > 0.5f))
             {
                 if (sparkSourceUid.HasValue)
                     _adminLog.Add(LogType.Flammable, LogImpact.High, $"Heat/spark of {ToPrettyString(sparkSourceUid.Value)} caused atmos ignition of gas: {tile.Air.Temperature.ToString():temperature}K - {oxygen}mol Oxygen, {phoron}mol Phoron, {tritium}mol Tritium");

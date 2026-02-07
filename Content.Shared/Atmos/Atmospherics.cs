@@ -159,6 +159,8 @@ namespace Content.Shared.Atmos
             [Gas.Phoron] = Loc.GetString("gas-phoron-abbreviation"),
             [Gas.Tritium] = Loc.GetString("gas-tritium-abbreviation"),
             [Gas.WaterVapor] = Loc.GetString("gas-water-vapor-abbreviation"),
+            [Gas.Hydrogen] = Loc.GetString("gas-hydrogen-abbreviation"),
+            [Gas.Chlorine] = Loc.GetString("gas-chlorine-abbreviation"),
         };
 
         #region Excited Groups
@@ -188,7 +190,7 @@ namespace Content.Shared.Atmos
         /// <summary>
         ///     Total number of gases. Increase this if you want to add more!
         /// </summary>
-        public const int TotalNumberOfGases = 9;
+        public const int TotalNumberOfGases = 11;
 
         /// <summary>
         ///     This is the actual length of the gases arrays in mixtures.
@@ -352,5 +354,7 @@ namespace Content.Shared.Atmos
         Ammonia = 6,
         NitrousOxide = 7,
         Frezon = 8,
+        Hydrogen = 9,
+        Chlorine = 10,
     }
 }

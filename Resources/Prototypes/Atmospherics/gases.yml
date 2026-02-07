@@ -64,7 +64,7 @@
   name: gases-ammonia
   specificHeat: 20
   heatCapacityRatio: 1.4
-  molarMass: 44
+  molarMass: 17
   gasOverlaySprite: /Textures/Effects/atmospherics.rsi
   gasOverlayState: miasma
   gasMolesVisible: 2
@@ -79,7 +79,7 @@
   specificHeat: 40
   heatCapacityRatio: 1.3
   molarMass: 44
-  color: 2887E8
+  color: 7B42ED
   reagent: NitrousOxide
   pricePerMole: 1
 
@@ -95,3 +95,25 @@
   color: 3a758c
   reagent: Frezon
   pricePerMole: 0.3 # Goobstation - Gas Prices
+
+- type: gas
+  id: 9
+  name: gases-hydrogen
+  specificHeat: 10
+  heatCapacityRatio: 1.3
+  molarMass: 2
+  color: FFFFFF
+  reagent: Hydrogen
+  pricePerMole: 0.01
+
+- type: gas
+  id: 10
+  name: gases-chlorine
+  specificHeat: 14
+  heatCapacityRatio: 1.4
+  molarMass: 70
+  gasOverlaySprite: /Textures/Effects/atmospherics.rsi
+  gasOverlayState: chlorine
+  color: ECF87F
+  reagent: Chlorine
+  pricePerMole: 1.25

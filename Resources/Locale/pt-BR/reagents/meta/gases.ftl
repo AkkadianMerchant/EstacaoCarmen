@@ -1,20 +1,20 @@
-reagent-name-oxygen = oxygen
-reagent-desc-oxygen = An oxidizing, colorless gas.
+reagent-name-oxygen = oxigênio
+reagent-desc-oxygen = Um gás oxidante e incolor.
 
 reagent-name-phoron = phoron
-reagent-desc-phoron = Funky, space-magic pixie dust. You probably shouldn't eat this, but we both know you will anyways.
+reagent-desc-phoron = Pó de cristais de phoron.
 
-reagent-name-tritium = tritium
-reagent-desc-tritium = Radioactive space-magic pixie dust.
+reagent-name-tritium = trítio
+reagent-desc-tritium = Um isótopo mais pesado do hidrogênio.
 
-reagent-name-carbon-dioxide = carbon dioxide
-reagent-desc-carbon-dioxide = You have genuinely no idea what this is.
+reagent-name-carbon-dioxide = dióxido de carbono
+reagent-desc-carbon-dioxide = Você não tem a mínima ideia do que é isso.
 
-reagent-name-nitrogen = nitrogen
-reagent-desc-nitrogen = A colorless, odorless unreactive gas. Highly stable.
+reagent-name-nitrogen = nitrogênio
+reagent-desc-nitrogen = Um gás incolor, inodoro e inerte. Altamete estável.
 
-reagent-name-nitrous-oxide = nitrous oxide
-reagent-desc-nitrous-oxide = You know how everything seems funnier when you're tired? Well...
+reagent-name-nitrous-oxide = óxido nitroso
+reagent-desc-nitrous-oxide = Sabe quando tudo parece mais engraçado quando você tá cansado? Então...
 
 reagent-name-frezon = frezon
-reagent-desc-frezon = A highly effective coolant.. and hallucinogenic.
+reagent-desc-frezon = Um resfriante muito efetivo... e alucinógeno.

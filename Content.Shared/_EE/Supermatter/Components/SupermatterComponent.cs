@@ -394,6 +394,8 @@ public sealed partial class SupermatterComponent : Component
         { Gas.Frezon,        0f },
         { Gas.Ammonia,       0f },
         { Gas.NitrousOxide,  0f },
+        { Gas.Hydrogen,      0f },
+        { Gas.Chlorine,      0f },
     };
 
     /// <summary>
@@ -411,6 +413,8 @@ public sealed partial class SupermatterComponent : Component
         { Gas.Frezon,        (3f,   -10f,  -1f) },
         { Gas.Ammonia,       (0f,   .5f,   1f)  },
         { Gas.NitrousOxide,  (0f,   -5f,   -1f) },
+        { Gas.Hydrogen,      (10f,    5f,   1f) },
+        { Gas.Chlorine,      (0f,     5f,   1f) },
     };
 
     #endregion

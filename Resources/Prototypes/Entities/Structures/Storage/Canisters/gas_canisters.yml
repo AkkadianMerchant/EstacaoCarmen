@@ -131,6 +131,7 @@
           - 0 # Ammonia
           - 0 # N2O
           - 0 # Frezon
+          - 0 # Hydrogen
         temperature: 293.15
     - type: Destructible
       thresholds:
@@ -643,6 +644,104 @@
   - type: Lock
     locked: true
 
+- type: entity
+  parent: GasCanister
+  id: HydrogenCanister
+  name: hydrogen canister
+  components:
+    - type: Sprite
+      layers:
+        - state: yellow
+    - type: GasCanister
+      gasMixture:
+        volume: 1000
+        moles: # List of gasses for easy reference
+          - 0 # oxygen
+          - 0 # nitrogen
+          - 0 # CO2
+          - 0 # Phoron
+          - 0 # Tritium
+          - 0 # Water vapor
+          - 0 # Ammonia
+          - 0 # N2O
+          - 0 # Frezon
+          - 1871.71051 # Hydrogen
+        temperature: 293.15
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 600
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+      - trigger:
+          !type:DamageTrigger
+          damage: 300
+        behaviors:
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+        - !type:SpawnEntitiesBehavior
+          spawn:
+            StorageCanisterBroken:
+              min: 1
+              max: 1
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+        - !type:DumpCanisterBehavior
+    - type: Lock
+      locked: true
+
+- type: entity
+  parent: GasCanister
+  id: ChlorineCanister
+  name: chlorine canister
+  components:
+    - type: Sprite
+      layers:
+        - state: yellow
+    - type: GasCanister
+      gasMixture:
+        volume: 1000
+        moles: # List of gasses for easy reference
+          - 0 # oxygen
+          - 0 # nitrogen
+          - 0 # CO2
+          - 0 # Phoron
+          - 0 # Tritium
+          - 0 # Water vapor
+          - 0 # Ammonia
+          - 0 # N2O
+          - 0 # Frezon
+          - 0 # Hydrogen
+          - 1871.71051 # Chlorine
+        temperature: 293.15
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 600
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+      - trigger:
+          !type:DamageTrigger
+          damage: 300
+        behaviors:
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+        - !type:SpawnEntitiesBehavior
+          spawn:
+            StorageCanisterBroken:
+              min: 1
+              max: 1
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+        - !type:DumpCanisterBehavior
+    - type: Lock
+      locked: true
 # Broke Entities
 
 - type: entity

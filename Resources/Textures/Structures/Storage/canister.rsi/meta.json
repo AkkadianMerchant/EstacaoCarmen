@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from https://github.com/ParadiseSS13/Paradise/",
+  "copyright": "Taken from https://github.com/ParadiseSS13/Paradise/ Hydrogen taken from https://github.com/Aurorastation/Aurora.3/pull/12720/changes/e233ae8d8988a036eded8f3c9abd1031e87f29dd",
   "size": {
     "x": 32,
     "y": 32
@@ -23,6 +23,9 @@
       "name": "can-connector"
     },
     {
+      "name": "can-connectorCl"
+    },
+    {
       "name": "locked"
     },
     {
@@ -38,19 +41,40 @@
       ]
     },
     {
+      "name": "can-o0Cl",
+      "delays": [
+        [
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
       "name": "can-o1"
+    },
+    {
+      "name": "can-o1Cl"
     },
     {
       "name": "can-o2"
     },
     {
+      "name": "can-o2Cl"
+    },
+    {
       "name": "can-o3"
+    },
+    {
+      "name": "can-o3Cl"
     },
     {
       "name": "can-oa1"
     },
     {
       "name": "can-open"
+    },
+    {
+      "name": "can-openCl"
     },
     {
       "name": "grey"
@@ -111,6 +135,18 @@
     },
     {
       "name": "water_vapor-1"
+    },
+    {
+      "name": "purple"
+    },
+    {
+      "name": "purple-1"
+    },
+    {
+      "name": "vomitgreen"
+    },
+    {
+      "name": "vomitgreen-1"
     },
     {
       "name": "scrubber-connector"

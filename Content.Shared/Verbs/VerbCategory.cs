@@ -115,5 +115,8 @@ namespace Content.Shared.Verbs
 
         public static readonly VerbCategory GenderChange = new("verb-categories-gender-change");
         public static readonly VerbCategory SexChange = new("verb-categories-sex-change");
+
+        public static readonly VerbCategory Adjust =
+            new("verb-categories-adjust", "/Textures/Interface/VerbIcons/screwdriver.png");
     }
 }

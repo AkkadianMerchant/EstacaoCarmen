@@ -3,6 +3,7 @@ using Content.Server.Temperature.Components;
 using Content.Server.Temperature.Systems;
 using Content.Shared.ActionBlocker;
 using Robust.Shared.Timing;
+using Content.Shared.Mobs.Systems;
 
 namespace Content.Server.Body.Systems;
 
@@ -11,6 +12,7 @@ public sealed class ThermalRegulatorSystem : EntitySystem
     [Dependency] private readonly IGameTiming _gameTiming = default!;
     [Dependency] private readonly TemperatureSystem _tempSys = default!;
     [Dependency] private readonly ActionBlockerSystem _actionBlockerSys = default!;
+    [Dependency] private readonly MobStateSystem _mobStateSystem = default!;
 
     public override void Initialize()
     {
@@ -48,6 +50,9 @@ public sealed class ThermalRegulatorSystem : EntitySystem
     /// </summary>
     private void ProcessThermalRegulation(Entity<ThermalRegulatorComponent, TemperatureComponent?> ent)
     {
+        if (!_mobStateSystem.IsAlive(ent))
+            return;
+
         if (!Resolve(ent, ref ent.Comp2, logMissing: false))
             return;
 

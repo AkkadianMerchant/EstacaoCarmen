@@ -151,7 +151,7 @@
     bloodReagent: IPCCoolant
     cauterizeMessage: null
   - type: ThermalRegulator
-    metabolismHeat: 1300
+    metabolismHeat: 2500
     radiatedHeat: 100
     implicitHeatRegulation: 0
     sweatHeatRegulation: 0
